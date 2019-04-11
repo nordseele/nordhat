@@ -1,5 +1,5 @@
 cp -f setup.sh /home/we/norns-image
-cp -f norns_matron.service /home/we/norns-image/config
+cp -f norns-matron.service /home/we/norns-image/config
 cp -f init-norns.sh /home/we/norns-image/scripts
 cp -f norns-init.service /etc/systemd/system/
 cp -f norns.target /home/we/norns-image/config
