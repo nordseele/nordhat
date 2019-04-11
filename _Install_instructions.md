@@ -213,7 +213,8 @@ Then install network-manager and reboot
         chmod +x hat_install.sh
         ./hat_install.sh
 
- 5. ### Now run setup.sh
+ 2. ### Now run setup.sh
+        cd ~/norns-image
     `./setup.sh`
 
 6. ### Install norns
@@ -262,9 +263,7 @@ The .dts files needs to be compiled to .dtbo and then the .dtbo needs to be copi
 
 **(NornsHat REV2 users only)**
 
-    cd~
-    git clone https://github.com/nordseele/nornsHat_install_files.git
-    cd nornsHat_install_files
+    cd ~/nornsHat_install
 
 1. ### Norns-buttons-encoders-overlay
    `sudo dtc -W no-unit_address_vs_reg -@ -I dts -O dtb -o /boot/overlays/norns-buttons-encoders.dtbo norns-buttons-encoders-overlay.dts`  
