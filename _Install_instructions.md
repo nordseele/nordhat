@@ -210,6 +210,7 @@ Then install network-manager and reboot
 
         git clone https://github.com/monome/norns-image.git  
         cd /home/we/nornsHat_install
+        chmod +x hat_install.sh
         ./hat_install.sh
 
  5. ### Now run setup.sh
