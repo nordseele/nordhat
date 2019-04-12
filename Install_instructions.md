@@ -84,7 +84,6 @@ Enter the following commands one line at a time in the terminal.
 	sudo apt-get update
     sudo apt-get dist-upgrade
     sudo apt-get install vim git bc i2c-tools
-    git clone https://github.com/okyeron/norns-linux-bits.git
     git clone https://github.com/nordseele/nornsHat_install.git
   ```
   ***experimental*** >
