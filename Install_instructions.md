@@ -164,14 +164,12 @@ Make a quick change to network interfaces so network-manager does not take over 
 
  Add this:
 
-`auto wlan0`
+> `auto wlan0`
 
 
 Then install network-manager and reboot
 
     sudo apt install network-manager
-
-
 
 
 # Norns setup
@@ -219,21 +217,12 @@ rm maiden-v0.13.tgz
 
 # Network / Wifi
 
-### DO THIS AFTER YOU'RE SCREEN IS UP AND RUNNING PROPERLY
-
-Reset `/etc/network/interfaces`  to norns default
-
 ```
 sudo cp ~/norns-linux-bits/interfaces /etc/network/interfaces
 ```
-
-Rename /etc/wpa_supplicant/wpa_supplicant.conf to something else and reboot.   
-this should get network manager to take over   
 
 ```
 mv /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant_bak.conf
 ```
 
-Reboot
-
-At this point you will want to login to your wifi from the device screen so network manager remembers your wifi info.
+Reboot and login to your wifi from the device screen so network manager remembers your wifi info.
