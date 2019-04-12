@@ -56,7 +56,7 @@ Change the default user name
 
   `sudo passwd root` The password is ***sleep***
 
-  `sudo nano /etc/ssh/sshd_config` 
+  `sudo nano /etc/ssh/sshd_config`
 
 Find this line: `#PermitRootLogin prohibit-password` and edit it so it
     reads : `PermitRootLogin yes`
@@ -84,7 +84,8 @@ Enter the following commands one line at a time in the terminal.
 	sudo apt-get update
     sudo apt-get dist-upgrade
     sudo apt-get install vim git bc i2c-tools
-
+    git clone https://github.com/okyeron/norns-linux-bits.git
+    git clone https://github.com/nordseele/nornsHat_install.git
   ```
   ***experimental*** >
 
@@ -92,8 +93,7 @@ Enter the following commands one line at a time in the terminal.
   ./hat_prepare.sh
   ```
     sudo apt-get -y install libncurses5-dev
-    git clone https://github.com/okyeron/norns-linux-bits.git
-    git clone https://github.com/nordseele/nornsHat_install.git
+
     git clone --depth 1 --branch rpi-4.14.y-rt https://github.com/raspberrypi/linux     
     cd linux
     git checkout 22bb67b8e2e809d0bb6d435c1d20b409861794d2
