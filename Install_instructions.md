@@ -78,7 +78,7 @@ Exit, and this time login as ***we***
 # Linux & Kernel
 
 ## Run updates install git, build dependencies, etc
-Enter the following commands one by one in the terminal.
+Enter the following commands one line at a time in the terminal.
 
     cd ~
 	sudo apt-get update
@@ -96,7 +96,7 @@ Enter the following commands one by one in the terminal.
 
 ## Building the kernel
 
-### Setting the scene.
+### Setting the scene
 
     cd ~/linux
     export KERNEL=kernel7
@@ -202,7 +202,7 @@ Then install network-manager and reboot
 
 # Dust and Maiden
 
-Get dust from [updater](https://monome.nyc3.digitaloceanspaces.com/norns190405.tgz) and transfer the folder over SFTP (using Filezilla for example) to the *we* folder on the Raspberry Pi.
+Get dust from [updater](https://monome.nyc3.digitaloceanspaces.com/norns190405.tgz) and transfer the folder over SFTP (using Filezilla for example) to the ***we*** folder on the Raspberry Pi.
 
 
 Get maiden from github releases:
