@@ -31,7 +31,7 @@ Move the **wpa-supplicant.conf** file you've created to the root of the SD card 
 
 Find the IP of your Raspberry Pi using a software like Lanscan and
    generate a key (replace XX with the IP of the RPI).  
-Open a terminal and enter the following command (XX is the last two digits of the PI's IP).
+Open a terminal and enter the following command (XX is the last two digits of the PI's IP).  
 `ssh-keygen -R 192.168.1.XX`
 
 Connect via SSH. `ssh pi@192.168.1.XX` The password is ***raspberry***
@@ -56,7 +56,7 @@ Change the default user name
 
   `sudo passwd root` The password is ***sleep***
 
-  `sudo nano /etc/ssh/sshd_configs` and change the root password to ***sleep***
+  `sudo nano /etc/ssh/sshd_config` 
 
 Find this line: `#PermitRootLogin prohibit-password` and edit it so it
     reads : `PermitRootLogin yes`
@@ -84,8 +84,6 @@ Enter the following commands one line at a time in the terminal.
 	sudo apt-get update
     sudo apt-get dist-upgrade
     sudo apt-get install vim git bc i2c-tools
-    git clone https://github.com/okyeron/norns-linux-bits.git
-    git clone https://github.com/nordseele/nornsHat_install.git
 
   ```
   ***experimental*** >
@@ -94,7 +92,8 @@ Enter the following commands one line at a time in the terminal.
   ./hat_prepare.sh
   ```
     sudo apt-get -y install libncurses5-dev
-
+    git clone https://github.com/okyeron/norns-linux-bits.git
+    git clone https://github.com/nordseele/nornsHat_install.git
     git clone --depth 1 --branch rpi-4.14.y-rt https://github.com/raspberrypi/linux     
     cd linux
     git checkout 22bb67b8e2e809d0bb6d435c1d20b409861794d2
@@ -147,7 +146,7 @@ Now we're going to test the display. If your soldering is fine and if the kernel
 ***experimental***
 cd nornsHat_install
 ./hat_packages.sh
-```
+``
 Enter these commands (two different commands)
 
     curl https://keybase.io/artfwo/pgp_keys.asc | sudo apt-key add -

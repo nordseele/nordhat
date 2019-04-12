@@ -1,4 +1,5 @@
 sudo apt-get -y install libncurses5-dev
+cd
 git clone https://github.com/okyeron/norns-linux-bits.git
 git clone https://github.com/nordseele/nornsHat_install.git
 git clone --depth 1 --branch rpi-4.14.y-rt https://github.com/raspberrypi/linux
