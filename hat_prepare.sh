@@ -8,6 +8,7 @@ cp ~/norns-linux-bits/drivers-staging-fbtft/* /home/we/linux/drivers/staging/fbt
 cp ~/norns-linux-bits/arch-arm-configs/bcm2709_defconfig /home/we/linux/arch/arm/configs/bcm2709_defconfig
 cp ~/norns-linux-bits/.config /home/we/linux/.config
 
+cd ~/linux
 export KERNEL=kernel7
 make mrproper
 make bcm2709_defconfig
