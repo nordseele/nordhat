@@ -1,3 +1,5 @@
+"Quick" install 
+
 These instructions are provided by Okyeron 🙌  and edited by Nordseele for the NornsHat
 
 # Preparing the Raspberry PI SD card
