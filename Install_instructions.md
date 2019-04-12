@@ -136,18 +136,17 @@ Enter these commands (two different commands)
 
     curl https://keybase.io/artfwo/pgp_keys.asc | sudo apt-key add -
     echo "deb https://package.monome.org/ stretch main" | sudo tee /etc/apt/sources.list.d/norns.list
-  ```
-
-    sudo apt update
-    sudo apt install --no-install-recommends jackd2
-    sudo apt-get install libboost1.62-dev
-    sudo apt-get install libjack-jackd2-dev
-    sudo apt install libmonome-dev libnanomsg-dev supercollider-language supercollider-server supercollider-supernova supercollider-dev liblua5.3-dev libudev-dev libevdev-dev liblo-dev libcairo2-dev liblua5.3-dev libavahi-compat-libdnssd-dev libasound2-dev
-    sudo apt install dnsmasq
-    sudo apt install sc3-plugins ladspalist
-    sudo apt install usbmount
-    sudo apt-get install alsa-utils
-    sudo apt-get install libi2c-dev
+```
+sudo apt update
+sudo apt install --no-install-recommends jackd2
+sudo apt-get install libboost1.62-dev
+sudo apt-get install libjack-jackd2-dev
+sudo apt install libmonome-dev libnanomsg-dev supercollider-language supercollider-server supercollider-supernova supercollider-dev liblua5.3-dev libudev-dev libevdev-dev liblo-dev libcairo2-dev liblua5.3-dev libavahi-compat-libdnssd-dev libasound2-dev
+sudo apt install dnsmasq
+sudo apt install sc3-plugins ladspalist
+sudo apt install usbmount
+sudo apt-get install alsa-utils
+sudo apt-get install libi2c-dev
 ```
 
 Finally,  `sudo nano /lib/systemd/system/systemd-udevd.service ` and change
@@ -164,7 +163,7 @@ Make a quick change to network interfaces so network-manager does not take over 
 
  Add this:
 
-> `auto wlan0`
+`auto wlan0`
 
 
 Then install network-manager and reboot
@@ -178,7 +177,6 @@ Then install network-manager and reboot
 
     git clone https://github.com/monome/norns-image.git  
     cd /home/we/nornsHat_install
-    chmod +x hat_install.sh
     ./hat_install.sh
 
 ### Now run setup.sh
