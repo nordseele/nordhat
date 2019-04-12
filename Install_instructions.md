@@ -1,4 +1,4 @@
-# Preparing the Raspberry PI SD card
+# Preparing the Raspberry PI
 
 ### Download raspbian stretch lite
 https://www.raspberrypi.org/downloads/raspbian/  
