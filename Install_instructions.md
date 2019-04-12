@@ -30,7 +30,8 @@ Move the **wpa-supplicant.conf** file you've created to the root of the SD card 
 ### Mount the SD card and boot the Raspberry Pi
 
 Find the IP of your Raspberry Pi using a software like Lanscan and
-   generate a key (replace XX with the IP of the RPI). Open a terminal and enter the following command (XX is the last two digits of the PI's IP).
+   generate a key (replace XX with the IP of the RPI).  
+Open a terminal and enter the following command (XX is the last two digits of the PI's IP).
 `ssh-keygen -R 192.168.1.XX`
 
 Connect via SSH. `ssh pi@192.168.1.XX` The password is ***raspberry***
@@ -38,7 +39,8 @@ Connect via SSH. `ssh pi@192.168.1.XX` The password is ***raspberry***
 ### RPI adjustments
 
 `sudo raspi-config`
-An interactive command line will open, you need to make the following adjustements. When you're done: ***save and reboot***.
+An interactive command line will open, you need to make the following adjustements.  
+When you're done: ***save and reboot***.
 
 	Password : sleep
 	Network : Hostname : norns
