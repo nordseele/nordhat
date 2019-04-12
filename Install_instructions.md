@@ -175,17 +175,15 @@ Then install network-manager and reboot
 
 # Norns setup
 
-### Prepare
+### Norns image
 
     git clone https://github.com/monome/norns-image.git  
     cd /home/we/nornsHat_install
     ./hat_install.sh
-
-### Now run setup.sh
     cd ~/norns-image
     ./setup.sh
 
-### Install norns
+### Norns
     cd ~
     git clone https://github.com/monome/norns.git
     cd norns
