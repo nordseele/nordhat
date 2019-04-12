@@ -134,6 +134,12 @@ Now we're going to test the display. If your soldering is fine and if the kernel
 
 # Package installs
 
+***experimental*** >
+```
+cd nornsHat_install
+
+./hat_packages.sh
+```
 Enter these commands (two different commands)
 
     curl https://keybase.io/artfwo/pgp_keys.asc | sudo apt-key add -
