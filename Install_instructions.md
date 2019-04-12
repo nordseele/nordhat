@@ -84,6 +84,13 @@ Enter the following commands one line at a time in the terminal.
 	sudo apt-get update
     sudo apt-get dist-upgrade
     sudo apt-get install vim git bc i2c-tools
+
+  ```
+  ***experimental*** >
+
+  cd nornsHat_install
+  ./hat_prepare.sh
+  ```
     sudo apt-get -y install libncurses5-dev
     git clone https://github.com/okyeron/norns-linux-bits.git
     git clone https://github.com/nordseele/nornsHat_install.git
@@ -134,10 +141,10 @@ Now we're going to test the display. If your soldering is fine and if the kernel
 
 # Package installs
 
-***experimental*** >
-```
-cd nornsHat_install
 
+```
+***experimental***
+cd nornsHat_install
 ./hat_packages.sh
 ```
 Enter these commands (two different commands)
