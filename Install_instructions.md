@@ -61,7 +61,8 @@ Change the default user name
 Find this line: `#PermitRootLogin prohibit-password` and edit it so it
     reads : `PermitRootLogin yes`
 
- Save and close the file. Reboot. Login as root `ssh root@192.168.1.XX`
+ Save and close the file. ***Reboot***.  
+ Login as root `ssh root@192.168.1.XX`
 
 
 Then `usermod -l we -d /home/we -m pi`  and `groupmod --new-name we pi`
@@ -143,4 +144,6 @@ sudo cp ~/norns-linux-bits/interfaces /etc/network/interfaces
 sudo mv /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant_bak.conf
 ```
 
-Reboot and login to your wifi from the device screen so network manager remembers your wifi info.
+Create a network manager file and name it after the exact name of your router/network.
+
+    sudo nano /etc/NetworkManager/system-connections/***network_name***
