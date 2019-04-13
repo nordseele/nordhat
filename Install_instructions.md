@@ -86,8 +86,7 @@ Enter the following commands one line at a time in the terminal.
     sudo apt-get dist-upgrade -y
     sudo apt-get install vim git bc i2c-tools -y
     git clone https://github.com/nordseele/nornsHat_install.git
-    cd nornsHat_install
-    ./hat_prepare.sh
+    cd nornsHat_install && ./hat_prepare.sh
 
 
 ### Testing the ssd1322
@@ -99,8 +98,7 @@ Now we're going to test the display. If your soldering is fine and if the kernel
 # Package installs
 
 
-    cd nornsHat_install
-    ./hat_packages.sh
+    cd nornsHat_install && ./hat_packages.sh
 
 Answer ***yes (y)*** to everything. The device will reboot at the end of the process and will probably have a new ip address so you will need to open a new terminal window and reconnect `ssh we@norns.local`
 
@@ -108,12 +106,10 @@ Answer ***yes (y)*** to everything. The device will reboot at the end of the pro
 
 ### Norns
 
-    cd /home/we/nornsHat_install
-    ./hat_install.sh
+    cd /home/we/nornsHat_install &&./hat_install.sh
 
 ### Run sclang   
    `sclang`  and exit (with ctrl + z)
 
 ### Install SC
-    cd /home/we/norns/sc
-    ./install.sh
+    cd /home/we/norns/sc && ./install.sh
