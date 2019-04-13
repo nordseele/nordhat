@@ -17,11 +17,11 @@ sudo cp -f /home/we/nornsHat_install/matron.sh /home/we/norns
 sudo dtc -W no-unit_address_vs_reg -@ -I dts -O dtb -o /boot/overlays/norns-buttons-encoders.dtbo /home/we/nornsHat_install/overlays/norns-buttons-encoders-overlay.dts
 sudo dtc -W no-unit_address_vs_reg -@ -I dts -O dtb -o /boot/overlays/ssd1322-spi.dtbo /home/we/nornsHat_install/overlays/ssd1322-spi-overlay.dts
 
-cd ~/norns-image
+cd /home/we/norns-image
 ./setup.sh
 
 cd /home/we
 git clone https://github.com/monome/norns.git
-cd norns
+cd /home/we/norns
 ./waf configure
 ./waf
