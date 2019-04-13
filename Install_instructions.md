@@ -84,7 +84,7 @@ Enter the following commands one line at a time in the terminal.
     cd ~
 	sudo apt-get update
     sudo apt-get dist-upgrade -y
-    sudo apt-get install vim git bc i2c-tools
+    sudo apt-get install vim git bc i2c-tools -y
     git clone https://github.com/nordseele/nornsHat_install.git
     cd nornsHat_install
     ./hat_prepare.sh
