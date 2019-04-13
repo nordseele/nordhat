@@ -52,8 +52,6 @@ When you're done: ***save and reboot***.
 
 Login again `ssh pi@192.168.1.XX` The password is ***sleep***
 
-Change the default user name
-
   `sudo passwd root` The password is ***sleep***
 
   `sudo nano /etc/ssh/sshd_config`
@@ -62,6 +60,7 @@ Find this line: `#PermitRootLogin prohibit-password` and edit it so it
     reads : `PermitRootLogin yes`
 
  Save and close the file. ***Reboot***.  
+ 
  Login as root `ssh root@192.168.1.XX`
 
 
