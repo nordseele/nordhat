@@ -1,7 +1,6 @@
 cd /home/we
 git clone https://github.com/monome/norns-image.git
 
-
 sudo cp -f setup.sh /home/we/norns-image
 sudo cp -f norns-matron.service /home/we/norns-image/config
 sudo cp -f init-norns.sh /home/we/norns-image/scripts
