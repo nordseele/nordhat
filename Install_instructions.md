@@ -60,7 +60,7 @@ Find this line: `#PermitRootLogin prohibit-password` and edit it so it
     reads : `PermitRootLogin yes`
 
  Save and close the file. ***Reboot***.  
- 
+
  Login as root `ssh root@192.168.1.XX`
 
 
@@ -74,6 +74,7 @@ Exit, and this time login as ***we***
 
 `sudo nano /etc/sudoers.d/010_pi-nopasswd`  and change '**pi**' to '**we**'
 
+***Reboot***
 
 # Linux & Kernel
 
@@ -82,7 +83,7 @@ Enter the following commands one line at a time in the terminal.
 
     cd ~
 	sudo apt-get update
-    sudo apt-get dist-upgrade
+    sudo apt-get dist-upgrade -y
     sudo apt-get install vim git bc i2c-tools
     git clone https://github.com/nordseele/nornsHat_install.git
     cd nornsHat_install
