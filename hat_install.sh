@@ -42,6 +42,8 @@ cd /home/we/norns
 ./waf configure
 ./waf
 
+cd /home/we/norns/sc && ./install.sh
+
 sudo cp -f /home/we/nornsHat_install/matron.sh /home/we/norns
 sudo cp -f /home/we/nornsHat_install/config.txt /boot
 
