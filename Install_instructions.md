@@ -117,33 +117,3 @@ Answer ***yes (y)*** to everything. The device will reboot at the end of the pro
 ### Install SC
     cd /home/we/norns/sc
     ./install.sh
-
-
-# Dust and Maiden
-
-Get dust from [updater](https://monome.nyc3.digitaloceanspaces.com/norns190405.tgz) and transfer the folder over SFTP (using Filezilla for example) to the ***we*** folder on the Raspberry Pi.
-
-
-Get maiden from github releases:
-https://github.com/monome/maiden/releases
-
-```
-cd ~
-wget https://github.com/monome/maiden/releases/download/v0.13/maiden-v0.13.tgz
-tar -xvf maiden-v0.13.tgz
-rm maiden-v0.13.tgz
-```
-
-# Network / Wifi
-
-```
-sudo cp ~/norns-linux-bits/interfaces /etc/network/interfaces
-```
-
-```
-sudo mv /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant_bak.conf
-```
-
-Create a network manager file and name it after the exact name of your router/network.
-
-    sudo nano /etc/NetworkManager/system-connections/***network_name***

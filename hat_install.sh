@@ -26,3 +26,22 @@ cd /home/we/norns
 
 sudo cp -f /home/we/nornsHat_install/matron.sh /home/we/norns
 sudo cp -f /home/we/nornsHat_install/config.txt /boot
+
+cd ~
+mkdir dust
+cd dust
+mkdir code
+mkdir audio
+mkdir data
+cd code
+git clone https://github.com/monome/we.git
+git clone https://github.com/tehn/awake.git
+
+cd ~
+wget https://github.com/monome/maiden/releases/download/v0.13/maiden-v0.13.tgz
+tar -xvf maiden-v0.13.tgz
+rm maiden-v0.13.tgz
+
+
+sudo cp ~/norns-linux-bits/interfaces /etc/network/interfaces
+sudo mv /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant_bak.conf
