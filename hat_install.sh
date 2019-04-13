@@ -25,3 +25,4 @@ cd /home/we/norns
 ./waf
 
 sudo cp -f /home/we/nornsHat_install/matron.sh /home/we/norns
+sudo cp -f /home/we/nornsHat_install/config.txt /boot

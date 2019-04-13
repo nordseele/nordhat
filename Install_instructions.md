@@ -114,7 +114,7 @@ Answer ***yes (y)*** to everything. The device will reboot at the end of the pro
    `sclang`  and exit (with ctrl + z)
 
 ### Install SC
-    cd sc
+    cd /home/we/norns/sc
     ./install.sh
 
 
@@ -140,7 +140,7 @@ sudo cp ~/norns-linux-bits/interfaces /etc/network/interfaces
 ```
 
 ```
-mv /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant_bak.conf
+sudo mv /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant_bak.conf
 ```
 
 Reboot and login to your wifi from the device screen so network manager remembers your wifi info.
