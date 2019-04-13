@@ -1,3 +1,7 @@
+cd /home/we
+git clone https://github.com/monome/norns-image.git
+
+
 sudo cp -f setup.sh /home/we/norns-image
 sudo cp -f norns-matron.service /home/we/norns-image/config
 sudo cp -f init-norns.sh /home/we/norns-image/scripts
@@ -13,3 +17,12 @@ sudo cp -f matron.sh /home/we/norns
 # compile the overlays (buttons and encoders + ssd1322)
 sudo dtc -W no-unit_address_vs_reg -@ -I dts -O dtb -o /boot/overlays/norns-buttons-encoders.dtbo /home/we/nornsHat_install/overlays/norns-buttons-encoders-overlay.dts
 sudo dtc -W no-unit_address_vs_reg -@ -I dts -O dtb -o /boot/overlays/ssd1322-spi.dtbo /home/we/nornsHat_install/overlays/ssd1322-spi-overlay.dts
+
+cd ~/norns-image
+./setup.sh
+
+cd /home/we
+git clone https://github.com/monome/norns.git
+cd norns
+./waf configure
+./waf
