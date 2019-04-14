@@ -21,6 +21,9 @@ cd /home/we/norns-image
 cd /home/we
 git clone https://github.com/monome/norns.git
 cd /home/we/norns
+
+echo | sclang
+
 ./waf configure
 ./waf
 
