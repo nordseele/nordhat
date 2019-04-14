@@ -56,9 +56,8 @@ Enter the following commands in a terminal, edit if needed (country etc).
 `exit`  
 `ssh we@norns.local`  
 `sudo passwd -l root`  
-`sudo nano /etc/sudoers.d/010_pi-nopasswd`   (change pi to we and save (_ ctrl + x -> y _ )
-
-***Reboot***
+`sudo nano /etc/sudoers.d/010_pi-nopasswd` (change pi to we)  
+`sudo reboot`
 
 # Linux & Kernel
 
