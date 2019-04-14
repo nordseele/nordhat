@@ -40,7 +40,7 @@ Connect via SSH. `ssh pi@192.168.1.XX` The password is ***raspberry***
 Enter the following commands in a terminal, edit if needed (country etc).
 
 `sudo raspi-config nonint do_hostname norns`  
-`sudo raspi-config nonint do_spi 1`  
+`sudo raspi-config nonint do_spi 0`  
 `sudo raspi-config nonint do_wifi_country FR`  
 `sudo raspi-config nonint do_expand_rootfs`  
 `sudo su`  
@@ -82,3 +82,6 @@ Now we're going to test the display. If your soldering is fine and if the kernel
     cd /home/we/nornsHat_install &&./hat_packages.sh
     cd /home/we/nornsHat_install &&./hat_install.sh
 Answer ***yes (y)*** to "enable realtime priority"
+
+#### Connect to your wifi network  
+    nmcli device wifi connect 'FreeWifi_secure' password 'XXXXXXXXXXXXXXXX' ifname 'wlan0' name 'wlan0_FreeWifi_secure'
