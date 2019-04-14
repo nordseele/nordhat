@@ -99,8 +99,8 @@ ___
 * You might encounter some issues with the encoders until the process is complete, wifi setup etc.
 * CPU spikes appears as soon as a USB card is connected (??)
 
-If you don't want to use a USB soundcard edit config.txt and
+* If you don't want to use a USB soundcard edit `config.txt` and
 
-    # Enable audio (loads snd_bcm2835)
+      # Enable audio (loads snd_bcm2835)
       dtparam=audio=off
 and remove the blacklist in `sudo nano /lib/modprobe.d/aliases.conf`
