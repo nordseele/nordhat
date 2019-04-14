@@ -80,6 +80,9 @@ Now we're going to test the display. If your soldering is fine and if the kernel
 
 # Norns
     cd /home/we/nornsHat_install &&./hat_packages.sh
+
+You will be disconnected and the device will reboot. Reconnect in a new window.  
+
     cd /home/we/nornsHat_install &&./hat_install.sh
 Answer ***yes (y)*** to "enable realtime priority"
 
