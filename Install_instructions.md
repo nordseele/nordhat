@@ -86,11 +86,14 @@ You will be disconnected and the device will reboot. Reconnect in a new window.
     cd /home/we/nornsHat_install &&./hat_install.sh
 Answer ***yes (y)*** to "enable realtime priority"
 
-#### Connect to your wifi network  
+# Wifi network  
 *Do this manually, too risky to put it in the script.*
 
+    ssh we@norns.local
     sudo cp ~/norns-linux-bits/interfaces /etc/network/interfaces
     sudo mv /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant_bak.conf
+
+And reboot (with command line if possible).  
 On the Raspberry pi, navigate to System -> Wifi and add your network manually.
 
 ___
