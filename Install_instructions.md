@@ -102,7 +102,7 @@ ___
 * You might encounter some issues with the encoders until the process is complete, wifi setup etc.
 * CPU spikes appears as soon as a USB card is connected (??)
 
-
+___
 #### Using NornsHat without USB soundcard and without audio expansion board
 
 
@@ -110,8 +110,8 @@ ___
 
       # Enable audio (loads snd_bcm2835)
       dtparam=audio=on
-`sudo nano /lib/modprobe.d/aliases.conf`
-and remove or comment the "blacklist" of the bcm2835
+`sudo nano /etc/modprobe.d/raspi-blacklist.conf`
+and comment out "blacklist snd_bcm2835"
 
 `sudo nano /etc/systemd/system/norns-jack.service`
 and replace 128 by 256.
