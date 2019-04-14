@@ -1,24 +1,3 @@
-curl https://keybase.io/artfwo/pgp_keys.asc | sudo apt-key add -
-echo "deb https://package.monome.org/ stretch main" | sudo tee /etc/apt/sources.list.d/norns.list
-
-sudo apt update -y
-sudo apt install --no-install-recommends jackd2 -y
-sudo apt-get install libboost1.62-dev -y
-sudo apt-get install libjack-jackd2-dev -y
-sudo apt install libmonome-dev libnanomsg-dev supercollider-language supercollider-server supercollider-supernova supercollider-dev liblua5.3-dev libudev-dev libevdev-dev liblo-dev libcairo2-dev liblua5.3-dev libavahi-compat-libdnssd-dev libasound2-dev -y
-sudo apt install dnsmasq -y
-sudo apt install sc3-plugins ladspalist -y
-sudo apt install usbmount -y
-sudo apt-get install alsa-utils -y
-sudo apt-get install libi2c-dev -y
-
-sudo cp -f /home/we/nornsHat_install/systemd-udevd.service /lib/systemd/system/
-sudo cp -f /home/we/nornsHat_install/interfaces /etc/network
-sudo apt install network-manager -y
-
-sudo modprobe fbtft_device custom name=fb_ssd1322 width=128 height=64 speed=16000000 gpios=reset:25,dc:24
-con2fbmap 1 1
-
 cd /home/we
 git clone https://github.com/monome/norns-image.git
 

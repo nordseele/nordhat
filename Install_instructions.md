@@ -79,6 +79,6 @@ Now we're going to test the display. If your soldering is fine and if the kernel
     con2fbmap 1 1
 
 # Norns
-
+    cd /home/we/nornsHat_install &&./hat_packages.sh
     cd /home/we/nornsHat_install &&./hat_install.sh
 Answer ***yes (y)*** to "enable realtime priority"
