@@ -16,6 +16,9 @@ sudo cp -f /home/we/nornsHat_install/systemd-udevd.service /lib/systemd/system/
 sudo cp -f /home/we/nornsHat_install/interfaces /etc/network
 sudo apt install network-manager -y
 
+sudo modprobe fbtft_device custom name=fb_ssd1322 width=128 height=64 speed=16000000 gpios=reset:25,dc:24
+con2fbmap 1 1
+
 cd /home/we
 git clone https://github.com/monome/norns-image.git
 
@@ -63,7 +66,7 @@ tar -xvf maiden-v0.13.tgz
 rm maiden-v0.13.tgz
 
 
-sudo cp ~/norns-linux-bits/interfaces /etc/network/interfaces
-sudo mv /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant_bak.conf
+#sudo cp ~/norns-linux-bits/interfaces /etc/network/interfaces
+#sudo mv /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant_bak.conf
 
 sudo reboot

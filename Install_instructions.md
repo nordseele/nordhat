@@ -95,21 +95,7 @@ Now we're going to test the display. If your soldering is fine and if the kernel
     sudo modprobe fbtft_device custom name=fb_ssd1322 width=128 height=64 speed=16000000 gpios=reset:25,dc:24
     con2fbmap 1 1
 
-# Package installs
-
-
-    cd nornsHat_install && ./hat_packages.sh
-
-Answer ***yes (y)*** to everything. The device will reboot at the end of the process and will probably have a new ip address so you will need to open a new terminal window and reconnect `ssh we@norns.local`
-
-# Norns setup
-
-### Norns
+# Norns
 
     cd /home/we/nornsHat_install &&./hat_install.sh
-
-### Run sclang   
-   `sclang`  and exit (with ctrl + z)
-
-### Install SC
-    cd /home/we/norns/sc && ./install.sh
+Answer ***yes (y)*** to "enable realtime priority"
