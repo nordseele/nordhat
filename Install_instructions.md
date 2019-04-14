@@ -62,6 +62,7 @@ Enter the following commands in a terminal, edit if needed (country etc).
 # Linux & Kernel
 
 ## Run updates install git, build dependencies, etc
+Reminder: the password is ***sleep***  
 
     ssh we@norns.local
 	sudo apt-get update
