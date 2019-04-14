@@ -9,7 +9,7 @@ Use balenaEtcher - https://www.balena.io/etcher/ for this.
 
 ### SSH configuration
 
- Create a file in Atom and save it as **wpa-supplicant.conf**
+ Create a **wpa-supplicant.conf** file for your network and copy the file to the root of the ***boot*** volume
 
     country=fr (your country)
     update_config=1
@@ -37,42 +37,26 @@ Open a terminal and enter the following command (XX is the last two digits of th
 Connect via SSH. `ssh pi@192.168.1.XX` The password is ***raspberry***
 
 ### RPI adjustments
+Enter the following commands in a terminal, edit if needed (country etc).
 
-`sudo raspi-config`
-An interactive command line will open, you need to make the following adjustements.  
-When you're done: ***save and reboot***.
-
-	Password : sleep
-	Network : Hostname : norns
-	Interfacing : Spi (on)  
-	Advanced : Expand File System  
-	Localization : (en-US-UTF8, US-UTF8)    
-	Localization : wifi country > your country  
-	Localization : timezone > your timezone
-
-Login again `ssh pi@192.168.1.XX` The password is ***sleep***
-
-  `sudo passwd root` The password is ***sleep***
-
-  `sudo nano /etc/ssh/sshd_config`
-
-Find this line: `#PermitRootLogin prohibit-password` and edit it so it
-    reads : `PermitRootLogin yes`
-
- Save and close the file. ***Reboot***.  
-
- Login as root `ssh root@192.168.1.XX`
-
-
-Then `usermod -l we -d /home/we -m pi`  and `groupmod --new-name we pi`
-
-Exit, and this time login as ***we***  
-
-`ssh we@192.168.1.XX` The password is ***sleep***
-
-`sudo passwd -l root`
-
-`sudo nano /etc/sudoers.d/010_pi-nopasswd`  and change '**pi**' to '**we**'
+`sudo raspi-config nonint do_hostname norns`  
+`sudo raspi-config nonint do_spi 1`  
+`sudo raspi-config nonint do_wifi_country FR`  
+`sudo raspi-config nonint do_expand_rootfs`  
+`sudo su`  
+`passwd pi` (sleep)  
+`sudo reboot`  
+`ssh keygen -R norns.local`  
+`sudo passwd root` (sleep)  
+`sudo nano /etc/ssh/sshd_config` ("PermitRootLogin" needs to be set to "yes" and uncomment the line)  
+`sudo reboot`  
+`ssh root@norns.local`  
+`usermod -l we -d /home/we -m pi`   
+`groupmod --new-name we pi`  
+`exit`  
+`ssh we@norns.local`  
+`sudo passwd -l root`  
+`sudo nano /etc/sudoers.d/010_pi-nopasswd`   (change pi to we and save (_ ctrl + x -> y _ )
 
 ***Reboot***
 
