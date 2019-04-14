@@ -41,7 +41,7 @@ Enter the following commands in a terminal, edit if needed (country etc).
 
 `sudo raspi-config nonint do_hostname norns`  
 `sudo raspi-config nonint do_spi 0`  
-`sudo raspi-config` (change wifi country, this is crucial)  
+`sudo raspi-config` (change wifi country in the "Localization" menu, this is crucial)  
 `sudo raspi-config nonint do_expand_rootfs`  
 `sudo su`  
 `passwd pi` ***(sleep)***  
