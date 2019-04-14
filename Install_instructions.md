@@ -44,11 +44,11 @@ Enter the following commands in a terminal, edit if needed (country etc).
 `sudo raspi-config nonint do_wifi_country FR`  
 `sudo raspi-config nonint do_expand_rootfs`  
 `sudo su`  
-`passwd pi` (sleep)  
+`passwd pi` ***(sleep)***  
 `sudo reboot`  
 `ssh keygen -R norns.local`  
-`sudo passwd root` (sleep)  
-`sudo nano /etc/ssh/sshd_config` ("PermitRootLogin" needs to be set to "yes" and uncomment the line)  
+`sudo passwd root` ***(sleep)***  
+`sudo nano /etc/ssh/sshd_config` ***("PermitRootLogin" needs to be set to "yes" and uncomment the line)***  
 `sudo reboot`  
 `ssh root@norns.local`  
 `usermod -l we -d /home/we -m pi`   
@@ -56,7 +56,7 @@ Enter the following commands in a terminal, edit if needed (country etc).
 `exit`  
 `ssh we@norns.local`  
 `sudo passwd -l root`  
-`sudo nano /etc/sudoers.d/010_pi-nopasswd` (change pi to we)  
+`sudo nano /etc/sudoers.d/010_pi-nopasswd` ***(change pi to we)***  
 `sudo reboot`
 
 # Linux & Kernel
