@@ -116,4 +116,6 @@ and comment out "blacklist snd_bcm2835"
 `sudo nano /etc/systemd/system/norns-jack.service`
 and replace 128 with 256.
 
+`amixer cset numid=3 1`
+
 `sudo reboot`
