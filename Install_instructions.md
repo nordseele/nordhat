@@ -41,7 +41,7 @@ Enter the following commands in a terminal, edit if needed (country etc).
 
 `sudo raspi-config nonint do_hostname norns`  
 `sudo raspi-config nonint do_spi 0`  
-`sudo raspi-config nonint do_wifi_country FR`  
+`sudo raspi-config` (change wifi country, this is crucial)  
 `sudo raspi-config nonint do_expand_rootfs`  
 `sudo su`  
 `passwd pi` ***(sleep)***  
@@ -87,4 +87,20 @@ You will be disconnected and the device will reboot. Reconnect in a new window.
 Answer ***yes (y)*** to "enable realtime priority"
 
 #### Connect to your wifi network  
-    nmcli device wifi connect 'FreeWifi_secure' password 'XXXXXXXXXXXXXXXX' ifname 'wlan0' name 'wlan0_FreeWifi_secure'
+*Do this manually, too risky to put it in the script.*
+
+    sudo cp ~/norns-linux-bits/interfaces /etc/network/interfaces
+    sudo mv /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant_bak.conf
+On the Raspberry pi, navigate to System -> Wifi and add your network manually.
+
+___
+#### Notes
+* We need to find another way to connect, entering long password with the encoders is difficult.
+* You might encounter some issues with the encoders until the process is complete, wifi setup etc.
+* CPU spikes appears as soon as a USB card is connected (??)
+
+If you don't want to use a USB soundcard edit config.txt and
+
+    # Enable audio (loads snd_bcm2835)
+      dtparam=audio=off
+and remove the blacklist in `sudo nano /lib/modprobe.d/aliases.conf`

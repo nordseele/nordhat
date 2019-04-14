@@ -6,7 +6,7 @@ sudo cp -f /home/we/nornsHat_install/norns-matron.service /home/we/norns-image/c
 sudo cp -f /home/we/nornsHat_install/init-norns.sh /home/we/norns-image/scripts
 sudo cp -f /home/we/nornsHat_install/norns-init.service /etc/systemd/system/
 sudo cp -f /home/we/nornsHat_install/norns.target /home/we/norns-image/config
-
+sudo cp -f /home/we/nornsHat_install/aliases.conf /lib/modprobe.d
 sudo cp -f /home/we/nornsHat_install/raspi-blacklist.conf /etc/modprobe.d
 sudo cp -f /home/we/nornsHat_install/asound.conf /etc
 sudo cp -f /home/we/nornsHat_install/alsa.conf /usr/share/alsa
