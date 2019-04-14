@@ -55,16 +55,15 @@ Enter the following commands in a terminal, edit if needed (country etc).
 `groupmod --new-name we pi`  
 `exit`  
 `ssh we@norns.local`  
-`sudo passwd -l root`  
+`sudo passwd -l root` ***(sleep)***
 `sudo nano /etc/sudoers.d/010_pi-nopasswd` ***(change pi to we)***  
 `sudo reboot`
 
 # Linux & Kernel
 
 ## Run updates install git, build dependencies, etc
-Enter the following commands one line at a time in the terminal.
 
-    cd ~
+    ssh we@norns.local
 	sudo apt-get update
     sudo apt-get dist-upgrade -y
     sudo apt-get install vim git bc i2c-tools -y
