@@ -38,7 +38,7 @@ Using the Adafruit 954 cable:
 
 ## I2C
 
-The I2C output over stereo jack connector on top of the board has not been tested yet. DO NOT use it unless you know what you're doing.
+The I2C output over stereo jack connector on top of the board has not been tested yet and has no utility at the moment. DO NOT use it unless you know what you're doing.
 ____
 ### Todo
 
