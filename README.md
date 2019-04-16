@@ -1,4 +1,4 @@
-# NordsHat & audio expansion board
+# Nords hat & audio expansion board
 
 ## Install instructions
 
