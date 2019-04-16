@@ -1,6 +1,6 @@
 # NordsHat & audio expansion board
 
-[Norns install instructions ](/install/norns/install_instructions.md)
+[Norns install instructions ](https://github.com/nordseele/nordsHat/blob/master/install/norns/Install_instructions.md)
 
 ## Keys GPIO
 
