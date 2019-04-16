@@ -1,5 +1,7 @@
 
-#Installing Norns on NordsHat
+# Installing Norns on NordsHat
+
+
 
 ## Preparing the Raspberry PI
 
