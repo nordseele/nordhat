@@ -1,7 +1,7 @@
 # nornsHat
 Norns Hat for raspberry Pi
 
-[Install_instructions.md](../blob/master/Install_instructions.md)
+[Install_instructions.md](Install_instructions.md)
 
 ## Keys GPIO
 
