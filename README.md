@@ -1,6 +1,6 @@
 # NordsHat & audio expansion board
 
-[Install_instructions.md](Install_instructions.md)
+[Norns install instructions ](install/norns/install_instructions.md)
 
 ## Keys GPIO
 
@@ -42,6 +42,5 @@ The I2C output over stereo jack connector on top of the board has not been teste
 ____
 ### Todo
 
-Clean folders  
 Adjust instructions for expansion board  
 Add build instructions ?  
