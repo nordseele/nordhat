@@ -1,7 +1,7 @@
 # nornsHat
 Norns Hat for raspberry Pi
 
-Use Install_instructions.md
+[Install_instructions.md](../Install_instructions.md)
 
 ## Keys GPIO
 
@@ -37,6 +37,6 @@ Use Install_instructions.md
 
 ### Todo
 
-Clean folders
-Adjust instructions for expansion board
-Add build instructions ?
+Clean folders  
+Adjust instructions for expansion board  
+Add build instructions ?  
