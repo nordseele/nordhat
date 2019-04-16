@@ -11,14 +11,14 @@
 
 ## Encoders GPIO
 
-- E1A : GPIO 26
-- E1B : GPIO 13
+- E1A : GPIO 26  
+  E1B : GPIO 13  
 
-- E2A : GPIO 05
-- E2B : GPIO 22
+- E2A : GPIO 05  
+  E2B : GPIO 22  
 
-- E3A : GPIO 04
-- E3B : GPIO 17
+- E3A : GPIO 04  
+  E3B : GPIO 17
 
 ## OLED display
 
@@ -27,13 +27,16 @@
 
 
 ## UART
+
+Using the Adafruit 954 cable:
 - white lead TX
 - green lead RX
 - blak lead GND
-- Don't connect the red lead
+- ***DO NOT connect the red lead while the Pi is still powered from USB !***
 
-  screen /dev/cu.usbserial* 115200
+  `screen /dev/cu.usbserial* 115200`
 
+____
 ### Todo
 
 Clean folders  
