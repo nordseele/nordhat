@@ -33,4 +33,10 @@ Use Install_instructions.md
 - blak lead GND
 - Don't connect the red lead
 
-screen /dev/cu.usbserial* 115200
+  screen /dev/cu.usbserial* 115200
+
+### Todo
+
+Clean folders
+Adjust instructions for expansion board
+Add build instructions ?
