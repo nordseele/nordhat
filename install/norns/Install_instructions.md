@@ -103,7 +103,7 @@ ___
 * CPU spikes appears as soon as a USB card is connected (??)
 
 ___
-#### Using NornsHat without USB soundcard and without audio expansion board
+#### Using NordsHat without USB soundcard and without audio expansion board
 
 
 `sudo nano /boot/config.txt`
