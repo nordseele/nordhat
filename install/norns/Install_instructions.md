@@ -100,27 +100,3 @@ Answer ***yes (y)*** to "enable realtime priority"
 
 And reboot (with command line if possible).  
 On the Raspberry pi, navigate to System -> Wifi and add your network manually.
-
-___
-#### Notes
-* We need to find another way to connect, entering long password with the encoders is difficult.
-* You might encounter some issues with the encoders until the process is complete, wifi setup etc.
-* CPU spikes appears as soon as a USB card is connected (??)
-
-___
-#### Using NordsHat without USB soundcard and without audio expansion board
-
-
-`sudo nano /boot/config.txt`
-
-      # Enable audio (loads snd_bcm2835)
-      dtparam=audio=on
-`sudo nano /etc/modprobe.d/raspi-blacklist.conf`
-and comment out "blacklist snd_bcm2835"
-
-`sudo nano /etc/systemd/system/norns-jack.service`
-and replace 128 with 256.
-
-`amixer cset numid=3 1`
-
-`sudo reboot`
