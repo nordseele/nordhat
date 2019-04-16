@@ -1,4 +1,7 @@
-# Preparing the Raspberry PI
+
+#Installing Norns on NordsHat
+
+## Preparing the Raspberry PI
 
 ### Download raspbian stretch lite
 https://www.raspberrypi.org/downloads/raspbian/  
@@ -59,9 +62,9 @@ Enter the following commands in a terminal, edit if needed (country etc).
 `sudo nano /etc/sudoers.d/010_pi-nopasswd` ***(change pi to we)***  
 `sudo reboot`
 
-# Linux & Kernel
+## Linux & Kernel
 
-## Run updates install git, build dependencies, etc
+### Run updates install git, build dependencies, etc
 Reminder: the password is ***sleep***  
 
     ssh we@norns.local
@@ -78,7 +81,7 @@ Now we're going to test the display. If your soldering is fine and if the kernel
     sudo modprobe fbtft_device custom name=fb_ssd1322 width=128 height=64 speed=16000000 gpios=reset:25,dc:24
     con2fbmap 1 1
 
-# Norns
+## Norns
     cd /home/we/nordsHat/install/norns/scripts &&./hat_packages.sh
 
 You will be disconnected and the device will reboot. Reconnect in a new window.  
@@ -86,7 +89,7 @@ You will be disconnected and the device will reboot. Reconnect in a new window.
     cd /home/we/nornsHat_install &&./hat_install.sh
 Answer ***yes (y)*** to "enable realtime priority"
 
-# Wifi network  
+## Wifi network  
 *Do this manually, too risky to put it in the script.*
 
     ssh we@norns.local
