@@ -1,6 +1,6 @@
 Id,Designator,Package,Quantity,Designation,Supplier and ref,Notes,
 ,Switches,SW_MEC_5ETH920Q,3,Switches,APEM 5ETH920Q,"We’re low actuation force key switches, but feel free to use another actuation force, in the same 5E series or 5G* You’ll need to modify the panels in consequence if you use a 5G series. ",
-,SW3,RotaryEncoder_Bourns_Vertical_H20mm_PEC11R,3,Rotary_Encoders,PEC11R-4015K-N0024 (T18),"We’re using encoders without detent and without switch, T18. The shortest available in this series. Use PEC11R-4015F-N0024 if you want D_Shaft terminaison. Find a reference in the same series if you want to use a different length.",
+,Encoders,RotaryEncoder_Bourns_Vertical_H20mm_PEC11R,3,Rotary_Encoders,PEC11R-4015K-N0024 (T18),"We’re using encoders without detent and without switch, T18. The shortest available in this series. Use PEC11R-4015F-N0024 if you want D_Shaft terminaison. Find a reference in the same series if you want to use a different length.",
 ,J2,PinHeader_2x07_P2.54mm_Vertical,1,expansion header,TSW-107-07-G-D,,
 ,J5,NHD-2.7-12864WDW3_nosilk,1,OLED display,NHD-2.7-12864WDW3,,
 ,J3,SJ3523_stereo,1,I2C stereo jack,SJ1-3523N,,
