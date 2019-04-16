@@ -1,4 +1,4 @@
-# NornsHat & audio expansion board
+# NordsHat & audio expansion board
 
 [Install_instructions.md](Install_instructions.md)
 

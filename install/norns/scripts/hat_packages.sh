@@ -12,7 +12,7 @@ sudo apt install usbmount -y
 sudo apt-get install alsa-utils -y
 sudo apt-get install libi2c-dev -y
 
-sudo cp -f systemd-udevd.service /lib/systemd/system/
-sudo cp -f interfaces /etc/network
+sudo cp -f /home/we/nordsHat/install/norns/files/systemd-udevd.service /lib/systemd/system/
+sudo cp -f /home/we/nordsHat/install/norns/files/interfaces /etc/network
 sudo apt install network-manager
 sudo reboot
