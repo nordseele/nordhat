@@ -1,6 +1,8 @@
 # nornsHat
 Norns Hat for raspberry Pi
 
+Use Install_instructions.md
+
 ## Keys GPIO
 
 - K1 : GPIO 06
