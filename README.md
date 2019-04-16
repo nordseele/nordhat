@@ -31,7 +31,7 @@
 Using the Adafruit 954 cable:
 - white lead TX
 - green lead RX
-- blak lead GND
+- black lead GND
 - ***DO NOT connect the red lead while the Pi is still powered from USB !***
 
   `screen /dev/cu.usbserial* 115200`
