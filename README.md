@@ -36,6 +36,9 @@ Using the Adafruit 954 cable:
 
   `screen /dev/cu.usbserial* 115200`
 
+## I2C
+
+The I2C output over stereo jack connector on top of the board has not been teste yet. DO NOT use it unless you know what you're doing.
 ____
 ### Todo
 
