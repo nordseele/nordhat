@@ -7,7 +7,6 @@
 
 ### Download raspbian stretch lite
 https://www.raspberrypi.org/downloads/raspbian/  
-(tested with 2018-11-13 release)
 
 ### Flash raspbian lite to the sdcard
 Use balenaEtcher - https://www.balena.io/etcher/ for this.
