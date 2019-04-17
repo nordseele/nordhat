@@ -5,7 +5,6 @@
 - [Installing Norns](https://github.com/nordseele/nordsHat/blob/master/install/norns/Install_instructions.md)
 
 
-
 ## Keys GPIO
 
 - K1 : GPIO 06
