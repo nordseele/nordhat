@@ -1,7 +1,6 @@
 
-# Installing Norns on NordsHat
-
-
+# Installing Norns on NordHat
+***Rev2 only or modify the overlay files accordingly***
 
 ## Preparing the Raspberry PI
 
@@ -72,8 +71,8 @@ Reminder: the password is ***sleep***
 	sudo apt-get update
     sudo apt-get dist-upgrade -y
     sudo apt-get install vim git bc i2c-tools -y
-    git clone https://github.com/nordseele/nordsHat.git
-    cd /home/we/nordsHat/install/norns/scripts && ./hat_prepare.sh
+    git clone https://github.com/nordseele/nordhat.git
+    cd /home/we/nordhat/install/norns/scripts && ./hat_prepare.sh
 
 
 ### Testing the ssd1322
@@ -83,11 +82,11 @@ Now we're going to test the display. If your soldering is fine and if the kernel
     con2fbmap 1 1
 
 ## Norns
-    cd /home/we/nordsHat/install/norns/scripts &&./hat_packages.sh
+    cd /home/we/nordhat/install/norns/scripts &&./hat_packages.sh
 
 You will be disconnected and the device will reboot. Reconnect in a new window.  
 
-    cd /home/we/nornsHat_install &&./hat_install.sh
+    cd /home/we/nordhat/install/norns/scripts &&./hat_install.sh
 Answer ***yes (y)*** to "enable realtime priority"
 
 ## Wifi network  
@@ -99,3 +98,15 @@ Answer ***yes (y)*** to "enable realtime priority"
 
 And reboot (with command line if possible).  
 On the Raspberry pi, navigate to System -> Wifi and add your network manually.
+
+## Audio configuration
+(needs to be tested once again)
+
+    ssh we@norns.local
+    amixer controls
+    amixer cset numid=13 on #Output Mixer HiFi  
+    amixer cset numid=4 on #line in  
+    sudo alsactl store  
+    amixer cset numid=3 0%
+
+    sudo reboot
