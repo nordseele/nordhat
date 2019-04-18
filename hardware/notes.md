@@ -6,8 +6,7 @@ We do not provide a "step by step build guide" for this project. There are only 
 # Important advice
 ***DO NOT solder the OLED display until all these steps are done. A certain chronology has to be respected.***  
 
-Some headers and standoffs are partially hidden under the OLED display. Before soldering this display, you need to solder the header ***J2*** and you need to mount a 11m standoff on ***H8*** (bottom). If you're wondering why OLED needs to be soldered, it's because we couldn't find an ultra low-profile header for the display.
-
+Some headers and standoffs are partially hidden under the OLED display. Before soldering this display, you need to solder the header ***J2*** and you need to mount a 11m standoff on ***H8*** (bottom). 
 ---
 # Hardware
 
