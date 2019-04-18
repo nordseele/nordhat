@@ -46,8 +46,6 @@ It is recommended to use the following dimensions, these are the minimum heights
 
 ### With expansion board
 
-not tested yet, wait!
-
 | holes (h) | position | length  | type  | thread | quantity |
 | :---: | :---: |:-------: | :-----: | :------: | :--------: |
 | 1, 2, 3, 4 | A | 7mm   | FF  | M3 | 4 |
@@ -64,9 +62,10 @@ not tested yet, wait!
 | 1, 2, 3, 4 | D | 15mm   |  FF | M3  | 4 |
 | 5, 6, 9   | RPI | 11mm  | MF  | M2.5 | 3 |
 
-### Additional hardware needed to attach the standoffs and panels together
+### Hardware used for assembling the standoffs
+Different possible combinations. Get these lines:
 - ***Headless screws M3 8mm***    
-- ***Flat head screws M3 10mm (Use normal head if your top panel doesn't have countersunk holes)***
+- ***Flat head screws M3 10mm and 6mm (Use normal head if your top panel doesn't have countersunk holes)***
 - ***M2.5 nylon washers***  
 - ***M2.5 nuts***
 
