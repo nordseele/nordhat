@@ -8,9 +8,9 @@ We do not provide a "step by step build guide" for this project. There are only 
 
 ### Dimensions
 
-Height: 84mm  
-Width: 150mm  
-Depth: 28mm  
+    Height: 84mm  
+    Width: 150mm  
+    Depth: 28mm  
 
 ## Headers and card to card connectors
 
@@ -67,6 +67,9 @@ It is recommended to use the following dimensions, these are the minimum heights
 | 1, 2, 3, 4 | A | 7mm   | FF  | M3 | 4 |
 | 1, 2, 3, 4 | D | 15mm   |  FF | M3  | 4 |
 | 5, 6, 9   | RPI | 11mm  | MF  | M2.5 | 3 |
+|8  | OPT  |  10mm | FF  | M2.5  |  1 |
+
+    Even if you don't use an expansion board for now, if you want to attach one someday   maybe, it is recommended to mount the ***H8 standoff*** (noted OPT in the table above). It won't be possible to attach it once the OLED is soldered on. This has to be done before soldering the OLED.
 
 ### Hardware used for assembling the standoffs
 Different possible combinations. Get these lines:
