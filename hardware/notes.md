@@ -52,7 +52,7 @@ not tested yet, wait!
 | 1, 2, 3, 4 | A | 8mm   | MF  | M3 | 4 |
 | 1, 3 | D  | 15mm   |  MM | M3  | 2 |
 | 5, 6, 9   | RPI | 11mm  | MF  | M2.5 | 3 |
-| 8, 7   | exp | 10mm  | MM  | M2.5 | 3 |
+| 8, 7   | EXP | 10mm  | MM  | M2.5 | 3 |
 | 2, 4 | C | 3mm   |  MM | M3  | 2 |
 | 2, 4 | B | 10mm |  MM | M3  | 2 |
 
