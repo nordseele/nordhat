@@ -1,6 +1,6 @@
 
 # Installing Norns on NordHat
-***Nord Hat Rev2 only or modify the overlay files and config.txt accordingly***
+***Nord Hat Rev2 only. If you wish to follow the instructions on another device you should modify the overlay files and config.txt accordingly***
 
 ## Preparing the Raspberry PI
 
@@ -100,7 +100,7 @@ And reboot (with command line if possible).
 On the Raspberry pi, navigate to System -> Wifi and add your network manually.
 
 ## Audio configuration
-(needs to be tested once again)
+*(this part needs to be tested once again)*
 
     ssh we@norns.local
     amixer controls
