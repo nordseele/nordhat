@@ -20,7 +20,7 @@ If you're not planning to use the UART header, don't solder/order J4, it can als
 If you're planning to use the audio expansion board or if you need to access the GPIO )written on the bottom silkscreen) for any other purpose, ***you should solder this 14 positions 2 rows header before you solder the OLED display. It would be impossible or very difficult to solder this afterwards.***
 ### J5 - OLED Header
 Cut twenty pins from a male 2.54 breakable pin strip (see Adafruit 392 pack, as mentioned above)
-___
+
 ![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat_headers.png "mockup headers pin-out")
 
 ___
@@ -38,10 +38,11 @@ Use PEC11R-4015F-N0024 if you want a D-Shaft terminaison.
 ### Encoder knobs
 Use what you want, modify your choice of encoder/shaft terminaison in consequence. The encoders knobs used on the "Nord Hat" prototype are not available to buy.  
 
+___
 ## Screen protection
-
 It is recommended to use a screen protection made of Perspex/ plexiglas. Less than 1mm thick. It is placed between the top panel and the display. Use double sided adhesive tape to attach it. I used a small photo frame from Ikea from which I cut the plexiglas to size, cheapest solution, less than 2 euros. The dimensions should be 4cm x 7cm maximum.
 
+___
 ## Standoffs
 It is recommended to use the following dimensions, these are the minimum heights. The Raspberry should not be in contact with the bottom panel. There should be 1 or 2mm of clearance between the panel and and the bottom of the RPI, especially if you're using an aluminium panel.
 
