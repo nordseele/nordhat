@@ -41,24 +41,26 @@ ___
 ## Standoffs
 It is recommended to use the following dimensions, these are the minimum heights. The Raspberry should not be in contact with the bottom panel. There should be 1 or 2mm of clearance between the panel and and the bottom of the RPI, especially if you're using an aluminium panel.
 
+![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat_standoffs.png "mockup standoffs")
+
 ### With expansion board
 
 not tested yet, wait!
 
 | holes (h) | position | length  | type  | thread | quantity |
 | :---: | :---: |:-------: | :-----: | :------: | :--------: |
-| 1, 2, 3, 4 | top | 8mm   | MF  | M3 | 4 |
-| 1, 3 | bottom | 15mm   |  MM | M3  | 2 |
+| 1, 2, 3, 4 | A | 8mm   | MF  | M3 | 4 |
+| 1, 3 | D  | 15mm   |  MM | M3  | 2 |
 | 5, 6, 9   | RPI | 11mm  | MF  | M2.5 | 3 |
 | 8, 7   | exp | 10mm  | MM  | M2.5 | 3 |
-| 2, 4 | bot panel  -> exp | 3mm   |  MM | M3  | 2 |
-| 2, 4 | exp -> bottom | 10mm |  MM | M3  | 2 |
+| 2, 4 | C | 3mm   |  MM | M3  | 2 |
+| 2, 4 | B | 10mm |  MM | M3  | 2 |
 
 ### Without expansion board
 | holes (h) | position | length  | type  | thread | quantity |
 | :---: | :---: |:-------: | :-----: | :------: | :--------: |
-| 1, 2, 3, 4 | top | 8mm   | MF  | M3 | 4 |
-| 1, 2, 3, 4 | bottom | 15mm   |  MM | M3  | 4 |
+| 1, 2, 3, 4 | A | 8mm   | MF  | M3 | 4 |
+| 1, 2, 3, 4 | D | 15mm   |  MM | M3  | 4 |
 | 5, 6, 9   | RPI | 11mm  | MF  | M2.5 | 3 |
 
 ### Additional hardware needed to attach the standoffs and panels together
