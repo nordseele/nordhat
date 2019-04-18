@@ -1,5 +1,5 @@
 Id,Designator,Package,Quantity,Designation,Manufacturer ref,,
-1,"C10,C9","resistor_0603, 1%",2,22Op,CC0603JRNPO9BN221,,
+1,"C10,C9",Ceramic cap_0603,2,220p,CC0603JRNPO9BN221,,
 2,"R10,R5,R6,R9","resistor_0603, 1%",4,5.6K,CRCW06035K60FKEAC,,
 3,J6,sj1-3523,1,Stereo jack 3.5,sj1-3523,,
 4,"J4,J5,J2,J3",MJ_3536,4,Mono jack 3.5,MJ-3536,,
