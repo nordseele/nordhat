@@ -1,6 +1,6 @@
 
 # Installing Norns on NordHat
-***Rev2 only or modify the overlay files accordingly***
+***Nord Hat Rev2 only or modify the overlay files and config.txt accordingly***
 
 ## Preparing the Raspberry PI
 
