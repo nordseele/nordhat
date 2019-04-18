@@ -3,10 +3,10 @@
 # Before you start...
 We do not provide a "step by step build guide" for this project. There are only a few components and we assume you have a prior experience building electronic projects, soldering, etc. You'll find the references on the silkscreen and in the BOM and some additional tips and explanations in this page. The "hardware part" of the construction might require further experimentation/tricks. For example you'll probably need to adjust the height of the standoffs if you choose to use a 3mm panel instead of a 2mm one. All the things learned and tested during the construction of this prototype are reflected here. If you choose another component than the one listed in the suggested BOM (encoders, jack connectors, etc) you should verify that the footprint and pin-out matches, do this at your own risk. *Think "DIY" and use common sense.*
 
-# Important advices
+# Important advice
 ***DO NOT solder the OLED display until all these steps are done. A certain chronology has to be respected.***  
 
-Some headers and standoffs are partially hidden under the OLED display. Before soldering this display, you need to solder the header ***J2*** and you need to mount a 11m standoff on ***H8*** (bottom). If you're wondering why OLED needs to be soldered, it's because we couldn't find an ultra low-profile header for the display. 
+Some headers and standoffs are partially hidden under the OLED display. Before soldering this display, you need to solder the header ***J2*** and you need to mount a 11m standoff on ***H8*** (bottom). If you're wondering why OLED needs to be soldered, it's because we couldn't find an ultra low-profile header for the display.
 
 ---
 # Hardware
