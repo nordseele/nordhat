@@ -37,11 +37,6 @@ We’re using encoders without detent and without switch with T18 shaft. The sho
 Use PEC11R-4015F-N0024 if you want a D-Shaft terminaison.
 ### Encoder knobs
 Use what you want, modify your choice of encoder/shaft terminaison in consequence. The encoders knobs used on the "Nord Hat" prototype are not available to buy.  
-
-___
-## Screen protection
-It is recommended to use a screen protection made of Perspex/ plexiglas. Less than 1mm thick. It is placed between the top panel and the display. Use double sided adhesive tape to attach it. I used a small photo frame from Ikea from which I cut the plexiglas to size, cheapest solution, less than 2 euros. The dimensions should be 4cm x 7cm maximum.
-
 ___
 ## Standoffs
 It is recommended to use the following dimensions, these are the minimum heights. The Raspberry should not be in contact with the bottom panel. There should be 1 or 2mm of clearance between the panel and and the bottom of the RPI, especially if you're using an aluminium panel.
@@ -77,6 +72,11 @@ The Nord Hat prototype use rounded  steel standoffs of the **WA-SMSI series made
 ___
 ## Panels
 We provide two sets of files (dxf and fpd) for making the top and bottom panels. They have countersunk holes and chamfer. If you want to make acrylic panels you'll have to edit the files to remove the chamfer and countersinks. The recommended thickness is 2mm. The viewing angle of the OLED display will be affected if the thickness is more than 2mm.
+
+## Screen protection
+It is recommended to use a screen protection made of Perspex/ plexiglas. Less than 1mm thick. It is placed between the top panel and the display. Use double sided adhesive tape to attach it. I used a small photo frame from Ikea from which I cut the plexiglas to size, cheapest solution, less than 2 euros. The dimensions should be 4cm x 7cm maximum.
+
+____
 ____
 
 ### Issues
