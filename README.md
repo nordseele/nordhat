@@ -8,6 +8,7 @@ The BOM for the main board and the expansion board are located in the hardware/b
 
 - [Installing Norns](https://github.com/nordseele/nordhat/blob/master/install/norns/Install_instructions.md)
 
+
 ## Keys GPIO
 
 - K1 : GPIO 06
