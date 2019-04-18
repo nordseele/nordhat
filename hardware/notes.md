@@ -10,6 +10,8 @@ If you're not planning to use the UART header, don't solder/order J4, it can als
 
 ### J2, 02x07 pins - expansion board header
 If you're planning to use the audio expansion board or if you need to access the GPIO )written on the bottom silkscreen) for any other purpose, ***you should solder this 14 positions 2 rows header before you solder the OLED display. It would be impossible or very difficult to solder this afterwards.***
+### J5 - OLED Header
+Cut twenty pins from a male 2.54 breakable pin strip (see Adafruit 392 pack, as mentioned above)
 
 
 ## Buttons and encoders
