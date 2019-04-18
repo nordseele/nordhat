@@ -50,24 +50,24 @@ not tested yet, wait!
 
 | holes (h) | position | length  | type  | thread | quantity |
 | :---: | :---: |:-------: | :-----: | :------: | :--------: |
-| 1, 2, 3, 4 | A | 8mm   | MF  | M3 | 4 |
-| 1, 3 | D  | 15mm   |  MM | M3  | 2 |
+| 1, 2, 3, 4 | A | 7mm   | FF  | M3 | 4 |
+| 1, 3 | D  | 15mm   |  FF | M3  | 2 |
 | 5, 6, 9   | RPI | 11mm  | MF  | M2.5 | 3 |
-| 8, 7   | EXP | 10mm  | MM  | M2.5 | 3 |
-| 2, 4 | C | 3mm   |  MM | M3  | 2 |
-| 2, 4 | B | 10mm |  MM | M3  | 2 |
+| 8, 7   | EXP | 10mm  | FF  | M2.5 | 2 |
+| 2, 4 | C | 3mm   |  FF | M3  | 2 |
+| 2, 4 | B | 10mm |  FF | M3  | 2 |
 
 ### Without expansion board
 | holes (h) | position | length  | type  | thread | quantity |
 | :---: | :---: |:-------: | :-----: | :------: | :--------: |
-| 1, 2, 3, 4 | A | 8mm   | MF  | M3 | 4 |
-| 1, 2, 3, 4 | D | 15mm   |  MM | M3  | 4 |
+| 1, 2, 3, 4 | A | 7mm   | FF  | M3 | 4 |
+| 1, 2, 3, 4 | D | 15mm   |  FF | M3  | 4 |
 | 5, 6, 9   | RPI | 11mm  | MF  | M2.5 | 3 |
 
 ### Additional hardware needed to attach the standoffs and panels together
-- ***Headless screws M3 10mm***    
+- ***Headless screws M3 8mm***    
 - ***Flat head screws M3 10mm (Use normal head if your top panel doesn't have countersunk holes)***
-- ***M3 nylon washers***  
+- ***M2.5 nylon washers***  
 - ***M2.5 nuts***
 
 #### More infos about the standoffs
