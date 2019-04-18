@@ -2,6 +2,9 @@
 
 ## Headers and card to card connectors
 
+![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat.png "mockup headers and mounting holes")
+
+
 ### J3, J7, J6 - The I2C section (middle/top of the board)
 It's probably better to ***avoid soldering these connectors at the moment if you don't know what you're doing***, don't solder/order J3,J7,J6. This can be done later. At the moment this section has not been tested and has no utility. If you choose to solder the jack connector despite this recommendation, you should ***NEVER connect a midi jack or audio jack to this plug***. If you solder the stereo jack connector, it can be soldered either on top or on the bottom of the board (see silkscreen) but it's recommended to solder it on the bottom. For J7 and J6, cut two pins from a male 2.54 breakable pin strip like the reference suggested. (Order only one if you order the Adafruit 392, it’s a pack of 10 pieces)
 
