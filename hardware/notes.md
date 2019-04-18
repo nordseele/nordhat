@@ -1,5 +1,10 @@
 # Notes
 
+# Before you start...
+We do not provide a "step by step build guide" for this project. There are only a few components and we assume you have a prior experience building electronic projects, soldering, etc. You'll find the references on the silkscreen and in the BOM and some additional tips and explanations in this page. The "hardware part" of the construction might require further experimentation/tricks. For example you'll probably need to adjust the height of the spacers if you choose to use a 3mm panel instead of a 2mm one. All the things learned and tested during the construction of this prototype are reflected here. *Think "DIY" and use common sense.*
+
+---
+
 ## Headers and card to card connectors
 
 ![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat.png "mockup headers and mounting holes")
@@ -33,12 +38,28 @@ Use what you want, modify your choice of encoder/shaft terminaison in consequenc
 
 ## Screen protection
 
-To be determined
+It is recommended to use a screen protection made of Perspex/ plexyglas. Less than 1mm thick. It is placed between the top panel and the display. Use double sided adhesive tape to attach it. I used a small photo frame from Ikea from which I cut the plexiglas to size, cheapest solution, less than 2 euros. The dimensions should be 4cm x 7cm maximum.
 
 ## Spacers / standoff
 
-To be determined
+### With expansion board
 
+TBD
+
+### Without expansion board
+| holes (h) | position | length  | type  | thread | quantity |
+| :---: | :---: |:-------: | :-----: | :------: | :--------: |
+| 1, 2, 3, 4 | top | 15mm   | MF  | M3 | 4 |
+| 1, 2, 3, 4 | bottom | 8mm   |  MM | M3  | 4 |
+
+### Additional hardware needed to attach the standoffs and panels together
+- Headless screws M3 10mm  
+- Flat head screws M3 10mm (Use normal head if your top panel doesn't have countersunk holes)
+- M3 nylon washers
+- M2.5 nuts
+
+##### Further notes about the spacers
+The Nord Hat prototype use rounded  steel spacers of the WA-SMSI series made by Würth Elektronik. If you wish to use them, you will need to drill some mounting holes of the PCB (diameter 4.4mm H1, 2, 3, 4). Do this at your own risk even though there are no traces passing too close from these holes and there's an additional margin of error of 1mm. Beware if you order these spacers, they have a thinner 1mm high ring on top, the height of this ring supposed to be inserted into the mounting hole is not taken into account in the reference, that means that the WA-SMSI 15mm standoff/spacer is actual 15mm + 1mm (16mm). Same goes for all the references of this series (see data sheet of the manufacturer for more information).     
 ____
 
 ### Issues
