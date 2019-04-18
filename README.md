@@ -42,7 +42,3 @@ Using the Adafruit 954 cable:
 - ***DO NOT connect the red lead if the Pi is powered from USB !***
 
   `screen /dev/cu.usbserial* 115200`
-
-## I2C jack connector
-The I2C output over stereo jack connector on top of the board has not been tested yet and has no utility at the moment. ***DO NOT USE IT unless you know what you're doing. If you do, connect and disconnect devices ONLY when they are powered down. DO NOT connect audio or MIDI cables to the I2C jack***
-____
