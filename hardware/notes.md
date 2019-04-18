@@ -38,7 +38,7 @@ Use what you want, modify your choice of encoder/shaft terminaison in consequenc
 
 ## Screen protection
 
-It is recommended to use a screen protection made of Perspex/ plexyglas. Less than 1mm thick. It is placed between the top panel and the display. Use double sided adhesive tape to attach it. I used a small photo frame from Ikea from which I cut the plexiglas to size, cheapest solution, less than 2 euros. The dimensions should be 4cm x 7cm maximum.
+It is recommended to use a screen protection made of Perspex/ plexiglas. Less than 1mm thick. It is placed between the top panel and the display. Use double sided adhesive tape to attach it. I used a small photo frame from Ikea from which I cut the plexiglas to size, cheapest solution, less than 2 euros. The dimensions should be 4cm x 7cm maximum.
 
 ## Spacers / standoff
 
