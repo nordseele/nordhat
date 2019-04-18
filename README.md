@@ -1,9 +1,12 @@
 # Nordhat & audio expansion board
 
+## Build and BOM
+
+The BOM for the main board and the expansion board are located in the hardware/bom folder. Read the [notes.md](https://github.com/nordseele/nordhat/blob/master/hardware/notes.md) before ordering or soldering.
+
 ## Install instructions
 
-- [Installing Norns](https://github.com/nordseele/nordsHat/blob/master/install/norns/Install_instructions.md)
-
+- [Installing Norns](https://github.com/nordseele/nordhat/blob/master/install/norns/Install_instructions.md)
 
 ## Keys GPIO
 
