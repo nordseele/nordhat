@@ -21,7 +21,7 @@ If you're planning to use the audio expansion board or if you need to access the
 ### J5 - OLED Header
 Cut twenty pins from a male 2.54 breakable pin strip (see Adafruit 392 pack, as mentioned above)
 
-![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat-headers.png "mockup headers pin-out")
+![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat_headers.png "mockup headers pin-out")
 
 
 ## Buttons and encoders
