@@ -6,6 +6,12 @@ We do not provide a "step by step build guide" for this project. There are only 
 ---
 # Hardware
 
+### Dimensions
+
+Height: 84mm  
+Width: 150mm  
+Depth: 28mm  
+
 ## Headers and card to card connectors
 
 ![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat.png "mockup headers and mounting holes")
