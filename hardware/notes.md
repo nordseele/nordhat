@@ -11,7 +11,7 @@ We do not provide a "step by step build guide" for this project. There are only 
 
 
 ### J3, J7, J6 - The I2C section (middle/top of the board)
-It's probably better to ***avoid soldering these connectors at the moment if you don't know what you're doing***, don't solder/order J3,J7,J6. This can be done later. At the moment this section has not been tested and has no utility. If you choose to solder the jack connector despite this recommendation, you should ***NEVER connect a midi jack or audio jack to this plug***. If you solder the stereo jack connector, it can be soldered either on top or on the bottom of the board (see silkscreen) but it's recommended to solder it on the bottom. For J7 and J6, cut two pins from a male 2.54 breakable pin strip like the reference suggested. (Order only one if you order the Adafruit 392, it’s a pack of 10 pieces)
+It's probably better to ***avoid soldering these connectors for now if you don't know what you're doing***, don't solder/order J3,J7,J6. This can be done later. At the moment this section has not been tested and has no utility. If you choose to solder the jack connector despite this recommendation, you should ***NEVER connect a midi jack or audio jack to this plug***. If you solder the stereo jack connector, it can be soldered either on top or on the bottom of the board (see silkscreen) but it's recommended to solder it on the bottom. For J7 and J6, cut two pins from a male 2.54 breakable pin strip like the reference suggested. (Order only one if you order the Adafruit 392, it’s a pack of 10 pieces)
 
 ### J4 - UART 4 pins angled header
 If you're not planning to use the UART header, don't solder/order J4, it can also be done later if you change your mind. If you solder it on, this header should be placed/soldered on top of the board (even if the silkscreen is printed on the bottom). This header can be used with the Adafruit 954 cable. You should ***NEVER CONNECT THE 5V pin if the Raspberry Pi is powered via USB.***
@@ -41,6 +41,7 @@ Use what you want, modify your choice of encoder/shaft terminaison in consequenc
 It is recommended to use a screen protection made of Perspex/ plexiglas. Less than 1mm thick. It is placed between the top panel and the display. Use double sided adhesive tape to attach it. I used a small photo frame from Ikea from which I cut the plexiglas to size, cheapest solution, less than 2 euros. The dimensions should be 4cm x 7cm maximum.
 
 ## Spacers / standoff
+It is recommended to use the following dimensions, these are the minimum heights. You absolutely don't want the Raspberry to be touching the bottom panel. There should be 1 or 2mm of clearance between the panel and and the bottom of the RPI, especially if you're using an aluminium panel.
 
 ### With expansion board
 
