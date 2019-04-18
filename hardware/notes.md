@@ -3,6 +3,11 @@
 # Before you start...
 We do not provide a "step by step build guide" for this project. There are only a few components and we assume you have a prior experience building electronic projects, soldering, etc. You'll find the references on the silkscreen and in the BOM and some additional tips and explanations in this page. The "hardware part" of the construction might require further experimentation/tricks. For example you'll probably need to adjust the height of the standoffs if you choose to use a 3mm panel instead of a 2mm one. All the things learned and tested during the construction of this prototype are reflected here. If you choose another component than the one listed in the suggested BOM (encoders, jack connectors, etc) you should verify that the footprint and pin-out matches, do this at your own risk. *Think "DIY" and use common sense.*
 
+# Important advices
+***DO NOT solder the OLED display until all these steps are done. A certain chronology has to be respected.***  
+
+Some headers and standoffs are partially hidden under the OLED display. Before soldering this display, you need to solder the header ***J2*** and you need to mount a 11m standoff on ***H8*** (bottom). If you're wondering why OLED needs to be soldered, it's because we couldn't find an ultra low-profile header for the display. 
+
 ---
 # Hardware
 
@@ -29,6 +34,11 @@ If you're planning to use the audio expansion board or if you need to access the
 Cut twenty pins from a male 2.54 breakable pin strip (see Adafruit 392 pack, as mentioned above)
 
 ![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat_headers.png "mockup headers pin-out")
+
+____
+
+## OLED display
+TODO demonstrate how to bend the two legs from top right and bottom right.
 
 ___
 ## Buttons and encoders
@@ -69,7 +79,7 @@ It is recommended to use the following dimensions, these are the minimum heights
 | 5, 6, 9   | RPI | 11mm  | MF  | M2.5 | 3 |
 |8  | OPT  |  10mm | FF  | M2.5  |  1 |
 
-    Even if you don't use an expansion board for now, if you want to attach one someday   maybe, it is recommended to mount the ***H8 standoff*** (noted OPT in the table above). It won't be possible to attach it once the OLED is soldered on. This has to be done before soldering the OLED.
+> Even if you don't use an expansion board now, if you want to attach one someday it is recommended to mount the ***H8 standoff*** (noted OPT in the table above). It won't be possible to attach it once the OLED is soldered on. This has to be done before soldering the OLED.
 
 ### Hardware used for assembling the standoffs
 Different possible combinations. Get these lines:
