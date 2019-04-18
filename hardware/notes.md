@@ -19,4 +19,4 @@ To be determined
 
 ### Issues
 
-If you encounter an issue, check your soldering and reflow if necessary. Otherwise, create an issue in this repository. Questions related to installing Norns or any other environment should be posted to their respective repositories/forum/creators. The Raspberry Pi GPIO used for connecting the encoders, keys, OLED of this board are mentioned in readme.md.
+If you encounter an issue, check your soldering and reflow if necessary. Otherwise, create an issue in this repository. Questions related to installing Norns or any other environment should be posted to their respective repositories/forum/creators. The Raspberry Pi GPIO used for connecting the encoders, keys, OLED of this board are listed in readme.md. Two overlay .dts files are provided in the "overlays" folder 
