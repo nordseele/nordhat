@@ -112,4 +112,4 @@ On the Raspberry pi, navigate to System -> Wifi and add your network manually.
     sudo reboot
 
 
-*N.B: These install instructions are based on the work of Tehn, Okyeron, The Technobear among other. Thank you!*
+*N.B: These install instructions are based on the work of Tehn, Okyeron, The Technobear among others. Thank you!*
