@@ -37,7 +37,8 @@ Cut twenty pins from a male 2.54 breakable pin strip (see Adafruit 392 pack, as 
 ____
 
 ## OLED display
-TODO demonstrate how to bend the two legs from top right and bottom right.
+Solder it AFTER the various connectors and standoff h8.
+Bend the two legs from top right and bottom right.
 
 ___
 ## Buttons and encoders
@@ -93,7 +94,7 @@ ___
 ## Panels and screen protection
 We provide two sets of files (dxf and fpd) for making the top and bottom panels. They have countersunk holes and chamfer. If you want to make acrylic panels you'll have to edit the files to remove the chamfer and countersinks. The recommended thickness is 2mm. The viewing angle of the OLED display will be affected if the thickness is more than 2mm.
 
-It is recommended to use a screen protection made of Perspex/ plexiglas. Less than 1mm thick. It is placed between the top panel and the display. Use double sided adhesive tape to attach it. I used a small photo frame from Ikea from which I cut the plexiglas to size, cheapest solution, less than 2 euros. The dimensions should be 4cm x 7cm maximum.
+It is recommended to use a screen protection made of Perspex/ plexiglas. Less than 1mm thick. It is placed between the top panel and the display. Use double sided adhesive tape to attach it. The dimensions should be 4cm x 7cm maximum.
 
 ____
 
