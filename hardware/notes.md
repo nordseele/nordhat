@@ -18,7 +18,7 @@ DO NOT solder the OLED display until all these steps are done. A certain chronol
 
 ## Headers and card to card connectors
 
-![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat.png "mockup headers and mounting holes")
+![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat.png "mockup headers and mounting holes") ![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat_headers.png "mockup headers pin-out")
 
 
 ### J3, J7, J6 - The I2C section (middle/top of the board)
@@ -32,7 +32,7 @@ If you're planning to use the audio expansion board or if you need to access the
 ### J5 - OLED Header
 Cut twenty pins from a male 2.54 breakable pin strip (see Adafruit 392 pack, as mentioned above)
 
-![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat_headers.png "mockup headers pin-out")
+
 
 ____
 
