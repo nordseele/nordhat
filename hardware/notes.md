@@ -35,11 +35,9 @@ If you're planning to use the audio expansion board or if you need to access the
 Cut twenty pins from a male 2.54 breakable pin strip (see Adafruit 392 pack, as mentioned above)
 
 
-
 ____
 
 ## OLED display
-***Solder it AFTER the various connectors and standoff h8.***
 
 ### A small modification of the NHD-2.7-12864WDW3 is required if you want to want to keep the oled display very low, flush to the main board PCB. If you prefer not doing this modification, you will have have to mount standoffs on the display. This Oled display has tiny black legs under it and these legs could be in contact with the expansion header, we want to avoid that.  
 
@@ -49,6 +47,7 @@ So you need to bend two of these legs (bottom right and top right when you face 
 
 ![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/oled_detail.jpg "bend the legs of the oled")
 
+### You should solder the various connectors and mount the standoff h8 BEFORE soldering the Oled sdisplay
 
 ___
 ## Buttons and encoders
