@@ -18,7 +18,7 @@ DO NOT solder the OLED display until all these steps are done. A certain chronol
 
 ## Headers and card to card connectors
 
-![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat.png "mockup headers and mounting holes") ![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat_headers.png "mockup headers pin-out")
+![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/mockup_nordhat.png "mockup headers and mounting holes")
 
 
 ### J3, J7, J6 - The I2C section (middle/top of the board)
