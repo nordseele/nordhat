@@ -40,9 +40,10 @@ ____
 
 ## OLED display
 ***Solder it AFTER the various connectors and standoff h8.***
-### Required modification
 
-You need to make a small modification to the OLED display. There are four little legs under the PCB of the NewHaven display. You need to bend two of them (bottom right and top right when you face the display). One of these legs could possibly be in contact with the **J2** and the other one would hide the hole **h8** thus preventing the possibility of mounting a standoff there. Doing this modification is very important.
+### A small modification of the NHD-2.7-12864WDW3 is required if you want to want to keep the oled display very low, flush to the main board PCB. If you prefer not doing this modification, you will have have to mount standoffs on the display. This Oled display has tiny black legs under it and these legs could be in contact with the expansion header, we want to avoid that.  
+
+So you need to bend two of these legs (bottom right and top right when you face the display). If this modification is not done, one of these legs could possibly be in contact with the **J2** and the other one would hide the hole **h8** thus preventing the possibility of mounting a standoff there.
 
 ***Use some pliers and proceed very carefully !***
 
