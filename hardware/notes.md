@@ -47,7 +47,7 @@ So you need to bend two of these legs (bottom right and top right when you face 
 
 ![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/oled_detail.jpg "bend the legs of the oled")
 
-### You should solder the various connectors and mount the standoff h8 BEFORE soldering the Oled sdisplay
+### You should solder the various connectors and mount the standoff h8 BEFORE soldering the Oled display
 
 ___
 ## Buttons and encoders
