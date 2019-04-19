@@ -37,8 +37,14 @@ Cut twenty pins from a male 2.54 breakable pin strip (see Adafruit 392 pack, as 
 ____
 
 ## OLED display
-Solder it AFTER the various connectors and standoff h8.
-Bend the two legs from top right and bottom right.
+***Solder it AFTER the various connectors and standoff h8.***
+### Required modification
+
+You need to make a small modification to the OLED display. There are four little legs under the PCB of the NewHaven display. You need to bend two of them (bottom right and top right when you face the display). One of these legs could possibly be in contact with the **J2** and the other one would hide the hole **h8** thus preventing the possibility of mounting a standoff there.
+
+*** Use some pliers and proceed very carefully !  ***
+
+![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/oled_detail.jpg "bend the legs of the oled")
 
 ___
 ## Buttons and encoders
