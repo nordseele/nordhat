@@ -1,6 +1,6 @@
 # Notes
 
-## (Work in progress, more photos and infos coming later today 19/04/19)
+## (Work in progress?
 
 # Before you start...
 We do not provide a "step by step build guide" for this project. There are only a few components and we assume you have a prior experience building electronic projects, soldering, etc. You'll find the references on the silkscreen and in the BOM and some additional tips and explanations in this page. The "hardware part" of the construction might require further experimentation/tricks. For example you'll probably need to adjust the height of the standoffs if you choose to use a 3mm panel instead of a 2mm one. All the things learned and tested during the construction of this prototype are reflected here. If you choose another component than the one listed in the suggested BOM (encoders, jack connectors, etc) you should verify that the footprint and pin-out matches, do this at your own risk. *Think "DIY" and use common sense.*
@@ -39,7 +39,7 @@ ____
 
 ## OLED display
 
-### A small modification of the NHD-2.7-12864WDW3 is required if you want to want to keep the oled display very low, flush to the main board PCB. If you prefer not doing this modification, you will have have to mount standoffs on the display. This Oled display has tiny black legs under it and these legs could be in contact with the expansion header, we want to avoid that.  
+### A small modification of the NHD-2.7-12864WDW3 is required if you want to want to keep the oled display very low, flush to the main board PCB. If you prefer not doing this modification, you will have have to mount standoffs on the display. This Oled display has tiny black legs under it and these legs could be in contact with the expansion header.  
 
 So you need to bend two of these legs (bottom right and top right when you face the display). If this modification is not done, one of these legs could possibly be in contact with the **J2** and the other one would hide the hole **h8** thus preventing the possibility of mounting a standoff there.
 
