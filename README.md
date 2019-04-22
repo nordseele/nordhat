@@ -1,5 +1,7 @@
 # Nordhat & audio expansion board
 
+### (Work in progress, more infos coming soon)
+
 ## Build and BOM
 
 The BOM for the main board and the expansion board are located in the hardware/bom folder. Read the [notes.md](https://github.com/nordseele/nordhat/blob/master/hardware/notes.md) before ordering or soldering.
