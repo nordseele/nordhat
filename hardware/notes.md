@@ -1,5 +1,5 @@
 # Before you start...
-We assume you have a prior experience building electronic projects, soldering, etc. You'll find the references on the silkscreen and in the BOM and some additional tips and explanations in this page. The "hardware part" of the construction might require further experimentation/tricks. For example you'll probably need to adjust the height of the standoffs if you choose to use a 3mm panel instead of a 2mm one. All the things learned and tested during the construction of this prototype are reflected here. If you choose another component than the one listed in the suggested BOM (encoders, jack connectors, etc) you should verify that the footprint and pin-out match, do this at your own risk.
+We assume you have a prior experience building electronic projects, soldering, etc. You'll find the references on the silkscreen and in the BOM and some additional tips and explanations on this page. The "hardware part" of the construction might require further experimentation/tricks. For example you'll probably need to adjust the height of the standoffs if you choose to use a 3mm panel instead of a 2mm one. All the things learned and tested during the construction of this prototype are reflected here. If you choose another component than the one listed in the suggested BOM (encoders, jack connectors, etc) you should verify that the footprint and pin-out match, do this at your own risk.
 
 ---
 # Hardware
@@ -15,15 +15,15 @@ We assume you have a prior experience building electronic projects, soldering, e
 ![nordhat](images/nordhat.png)
 
 
-### J3, J7, J6 - The I2C section (middle/top of the board)
+#### J3, J7, J6 - The I2C section (middle/top of the board)
 It's probably better to ***avoid soldering these connectors for now if you don't know what you're doing***, don't solder/order J3,J7,J6. This can be done later. For now, this section has not been tested and has no utility. If you choose to solder the jack connector despite this recommendation, you should ***NEVER connect a midi jack or audio jack to this plug***. If you solder the stereo jack connector, it can be soldered either on top or on the bottom of the board (see silkscreen) but it's recommended to solder it on the bottom. For J7 and J6, cut two pins from a male 2.54 breakable pin strip like the reference suggested. (Order only one if you order the Adafruit 392, it’s a pack of 10 pieces)
 
-### J4 - UART 4 pins angled header
+#### J4 - UART 4 pins angled header
 If you're not planning to use the UART header, don't solder/order J4, it can also be done later if you change your mind. If you solder it on, this header should be placed/soldered on top of the board (even if the silkscreen is printed on the bottom). This header can be used with the Adafruit 954 cable. You should ***NEVER CONNECT THE 5V pin if the Raspberry Pi is powered from USB.***
 
-### J2, 02x07 pins - expansion board header
-***You should solder this 14 positions 2 rows header before you solder the OLED display. It would be impossible or very difficult to solder this afterwards.***
-### J5 - OLED Header
+#### J2, 02x07 pins - expansion board header
+You should solder this 14 positions 2 rows header ***before soldering the OLED*** display. It would be impossible or very difficult to solder this afterwards.
+#### J5 - OLED Header
 Cut twenty pins from a male 2.54 breakable pin strip (see Adafruit 392 pack, as mentioned above)
 
 
@@ -31,7 +31,7 @@ ____
 
 ## OLED display
 
-***Solder the expansion board header (J2) before soldering the OLED display.***
+Solder the expansion board header (J2) before soldering the OLED display.
 
 ___
 ## Buttons and encoders
@@ -57,14 +57,14 @@ It is recommended to use the following dimensions, these are the minimum heights
 ![standoffs](images/standoffs.png)
 
 
-| holes (h) | position | length  | type  | thread | quantity |
-| :---: | :---: |:-------: | :-----: | :------: | :--------: |
-| 1, 2, 3, 4 | A | 7mm   | FF  | M3 | 4 |
-| 1, 3 | D  | 15mm   |  FF | M3  | 2 |
+| holes (h) | position | length  | type  | thread | quantity | WA-SMSI sku
+| :---: | :---: |:-------: | :-----: | :------: | :--------: | :----:
+| 1, 2, 3, 4 | A | 7mm   | FF  | M3 | 4 | 9774070360R
+| 1, 3 | D  | 15mm   |  FF | M3  | 2 | 9774150360R
 | 5, 6, 9   | RPI | 11mm  | MF  | M2.5 | 3 |
 | 8, 7   | EXP | 10mm  | FF  | M2.5 | 2 |
-| 2, 4 | C | 3mm   |  FF | M3  | 2 |
-| 2, 4 | B | 10mm |  FF | M3  | 2 |
+| 2, 4 | C | 3mm   |  FF | M3  | 2 | 9774030360R
+| 2, 4 | B | 10mm |  FF | M3  | 2 | 9774100360R
 
 
 ### Additional Hardware used for assembling the standoffs
