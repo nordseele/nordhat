@@ -13,4 +13,4 @@ Read the [notes](hardware/notes.md) before ordering the BOM and building the dev
 
 ### Installing specific environments
 These install instructions have been tested and are provided for information purpose only.
-- [Installing Norns](install/norns/Install_instructions.md)
+[Installing Norns](install/norns/Install_instructions.md)
