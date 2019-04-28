@@ -51,21 +51,21 @@ Use what you want, modify your choice of encoder/shaft in consequence. The encod
 ___
 ## Standoffs
 
-The NordHat prototype uses rounded steel standoffs from the **WA-SMSI series made by Würth Elektronik**. The mounting holes have been specifically designed for these standoffs. The diameter of the holes is 4.4mm. If you do not use the WA-SMSI standoffs and prefer using some regular HEX standoffs instead, make sure they have a diameter of 6mm minimum.
+The NordHat prototype uses M3 rounded steel standoffs from the **WA-SMSI series made by Würth Elektronik** for H1, H2, H3, H4. The mounting holes have been specifically designed for these standoffs. The diameter of the holes is 4.4mm. If you do not use the WA-SMSI standoffs and prefer using some regular HEX standoffs instead, make sure they have a diameter of 6mm minimum. Use regular M2.5 hex standoffs for non-visible / internal mounting holes (H5, H6, H9, H8, H7)
 
 It is recommended to use the following dimensions, these are the minimum heights. The Raspberry should not be in contact with the bottom panel. There should be 1 or 2mm of clearance between the panel and and the bottom of the RPI, especially if you're using an aluminium panel.
 
 ![standoffs](images/standoffs.png)
 
 
-| holes (h) | position | length  | type  | thread | quantity | WA-SMSI sku
+| holes (h) | position | length  | type  | thread | quantity | sku
 | :---: | :---: |:-------: | :-----: | :------: | :--------: | :----:
-| 1, 2, 3, 4 | A | 7mm   | FF  | M3 | 4 | 9774070360R
-| 1, 3 | D  | 15mm   |  FF | M3  | 2 | 9774150360R
+| 1, 2, 3, 4 | A | 7mm   | FF  | M3 | 4 | WA-SMSI 9774070360R
+| 1, 3 | D  | 15mm   |  FF | M3  | 2 | WA-SMSI 9774150360R
 | 5, 6, 9   | RPI | 11mm  | MF  | M2.5 | 3 | use hex
 | 8, 7   | EXP | 10mm  | FF  | M2.5 | 2 | use hex
-| 2, 4 | C | 3mm   |  FF | M3  | 2 | 9774030360R
-| 2, 4 | B | 10mm |  FF | M3  | 2 | 9774100360R
+| 2, 4 | C | 3mm   |  FF | M3  | 2 | WA-SMSI 9774030360R
+| 2, 4 | B | 10mm |  FF | M3  | 2 | WA-SMSI 9774100360R
 
 
 ### Additional Hardware used for assembling the standoffs
