@@ -44,9 +44,9 @@ We’re using low actuation force key switches, but feel free to use another act
 
 ### Encoders
 We’re using encoders without detent and without switch with T18 shaft. The shortest available in this series.
-Use PEC11R-4015F-N0024 if you want a D-Shaft terminaison.
+Use PEC11R-4015F-N0024 if you want a D-Shaft.
 ### Encoder knobs
-Use what you want, modify your choice of encoder/shaft terminaison in consequence. The encoders knobs used on the "Nord Hat" prototype are not available to buy.  
+Use what you want, modify your choice of encoder/shaft in consequence. The encoders knobs used on the "Nord Hat" prototype are not available to buy.  
 ___
 ## Standoffs
 
@@ -80,8 +80,45 @@ ___
 We provide two sets of files (dxf and fpd) for making the top and bottom panels. They have countersunk holes and chamfer. If you want to make acrylic panels you'll have to edit the files to remove the chamfer and countersinks. The recommended thickness is 2mm. The viewing angle of the OLED display will be affected if the thickness is more than 2mm.
 
 It is recommended to use a screen protection made of Perspex/ plexiglas. Less than 1mm thick. It is placed between the top panel and the display. Use double sided adhesive tape to attach it. The dimensions should be 4cm x 7cm maximum.
-
 ____
+
+## GPIO
+
+### Keys GPIO
+
+- K1 : GPIO 06
+- K2 : GPIO 27
+- K3: GPIO 23
+
+
+### Encoders GPIO
+
+- E1A : GPIO 26  
+  E1B : GPIO 13  
+
+- E2A : GPIO 05  
+  E2B : GPIO 22  
+
+- E3A : GPIO 04  
+  E3B : GPIO 17
+
+### OLED display
+
+- Reset : GPIO 25
+- DC : GPIO 24
+
+
+### UART
+
+Using the Adafruit 954 cable:
+- white lead TX
+- green lead RX
+- black lead GND
+- ***DO NOT connect the red lead if the Pi is powered from USB !***
+
+  `screen /dev/cu.usbserial* 115200`
+____
+
 
 ### Issues
 
