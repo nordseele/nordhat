@@ -41,7 +41,7 @@ ___
 We’re using low actuation force key switches, but feel free to use another actuation force, in the same APEM 5E series. Note that you could use the 5G series which has the same footprint and a larger choice of caps available, but you'll have to modify the cutout (larger holes) of the top panel in consequence.
 
 ### Button caps
-1SS, the only caps available for the 5E series. They're available in **multiple colors** and height. read the data sheet of the manufacturer to find out how to adjust the reference. Adjust height depending on the thickness of the panel etc. Try different heights eventually. ***These caps are made for the APEM 5E series ONLY***.
+1SS, the only caps available for the 5E series. They're available in **multiple colors** and height but 7mm is the recommended height. read the data sheet of the manufacturer to find out how to adjust the reference. Adjust height depending on the thickness of the panel etc. Try different heights eventually. ***These caps are made for the APEM 5E series ONLY***.
 
 ### Encoders
 We’re using encoders without detent and without switch with T18 shaft. The shortest available in this series.
