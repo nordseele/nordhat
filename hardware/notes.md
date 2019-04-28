@@ -33,6 +33,7 @@ ____
 
 Solder the expansion board header (J2) before soldering the OLED display.
 
+
 ___
 ## Buttons and encoders
 
@@ -69,10 +70,11 @@ It is recommended to use the following dimensions, these are the minimum heights
 
 ### Additional Hardware used for assembling the standoffs
 Different possible combinations. Get these lines:
-- ***Headless screws M3 8mm***    
+- ***Headless screws M3 8mm***   
+- ***M2.5 6mm screws***
 - ***Flat head screws M3 10mm and 6mm (Use normal head if your top panel doesn't have countersunk holes)***
 - ***M2.5 nylon washers*** (optional)
-- ***M2.5 nuts*** (optional)
+- ***M2.5 nuts***
 
 
 ___
