@@ -56,6 +56,10 @@ dtoverlay=rpi-proto
 # Uncomment this to enable the lirc-rpi module
 #dtoverlay=lirc-rpi
 
+# Correct console for MacOS
+dtoverlay=pi3-disable-bt
+systemctl disable hciuart
+
 # Additional overlays and parameters are documented /boot/overlays/README
 
 # Enable audio (loads snd_bcm2835)
