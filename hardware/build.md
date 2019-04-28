@@ -1,26 +1,28 @@
 # Build instructions
 
+It is suggested to proceed in the order listed below.
+
 ## Main board
 
-#### Solder the SMD components
+#### SMD components
 Start by soldering the SMD components: nine 10k resistors and nine 100n ceramic capacitors.
 
-#### Solder the headers
+#### Headers
 
-#### Solder the buttons and encoders.
+#### Buttons and encoders.
 
-#### Solder the OLED display.
+#### OLED display.
 Make sure the display sits flush with the main board and is correctly aligned.
 
 ## Expansion board
 
-#### Solder the WM8731 DAC.
+#### WM8731 DAC.
 
-#### Solder the ceramic capacitors and resistors.
+#### Ceramic capacitors and resistors.
 
-#### Solder the electrolytic capacitors, the crystal and the 5V regulator.
+#### Electrolytic capacitors, the crystal and the 5V regulator.
 
-#### Solder the 02x07 header and the jack connectors.
+#### 02x07 header and the jack connectors.
 
 ## Assembling the two boards
 
