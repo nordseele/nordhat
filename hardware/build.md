@@ -1,28 +1,33 @@
 # Build instructions
 
-It is suggested to proceed in the order listed below.
+### Bill of material
+[Main board](bom/BOM_mainboard_nordhat.csv)
+
+[Expansion board](bom/BOM_expansion_board_nordhat.csv)
+
+***It is suggested to proceed in the order listed below.***
 
 ## Main board
 
-#### SMD components
+#### 1) SMD components
 Start by soldering the SMD components: nine 10k resistors and nine 100n ceramic capacitors.
 
-#### Headers
+#### 2) Headers
 
-#### Buttons and encoders.
+#### 3) Buttons and encoders.
 
-#### OLED display.
+#### 4) OLED display.
 Make sure the display sits flush with the main board and is correctly aligned.
 
 ## Expansion board
 
-#### WM8731 DAC.
+#### 1) WM8731 DAC.
 
-#### Ceramic capacitors and resistors.
+#### 2) Ceramic capacitors and resistors.
 
-#### Electrolytic capacitors, the crystal and the 5V regulator.
+#### 3) Electrolytic capacitors, the crystal and the 5V regulator.
 
-#### 02x07 header and the jack connectors.
+#### 4) 02x07 header and the jack connectors.
 
 ## Assembling the two boards
 
