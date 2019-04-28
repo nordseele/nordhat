@@ -1,4 +1,5 @@
 # Build instructions
+Please read the [notes](hardware/notes.md) if you have not already done so. 
 
 ### Bill of material
 [Main board](bom/BOM_mainboard_nordhat.csv)
