@@ -62,8 +62,8 @@ It is recommended to use the following dimensions, these are the minimum heights
 | :---: | :---: |:-------: | :-----: | :------: | :--------: | :----:
 | 1, 2, 3, 4 | A | 7mm   | FF  | M3 | 4 | 9774070360R
 | 1, 3 | D  | 15mm   |  FF | M3  | 2 | 9774150360R
-| 5, 6, 9   | RPI | 11mm  | MF  | M2.5 | 3 |
-| 8, 7   | EXP | 10mm  | FF  | M2.5 | 2 |
+| 5, 6, 9   | RPI | 11mm  | MF  | M2.5 | 3 | use hex
+| 8, 7   | EXP | 10mm  | FF  | M2.5 | 2 | use hex
 | 2, 4 | C | 3mm   |  FF | M3  | 2 | 9774030360R
 | 2, 4 | B | 10mm |  FF | M3  | 2 | 9774100360R
 
