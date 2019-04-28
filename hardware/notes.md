@@ -12,7 +12,7 @@ We assume you have a prior experience building electronic projects, soldering, e
 
 ## Headers and card to card connectors
 
-![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/nordhat.png "mockup headers and mounting holes")
+![nordhat](images/nordhat.png)
 
 
 ### J3, J7, J6 - The I2C section (middle/top of the board)
@@ -54,7 +54,7 @@ The NordHat prototype uses rounded steel standoffs from the **WA-SMSI series mad
 
 It is recommended to use the following dimensions, these are the minimum heights. The Raspberry should not be in contact with the bottom panel. There should be 1 or 2mm of clearance between the panel and and the bottom of the RPI, especially if you're using an aluminium panel.
 
-![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/standoffs.png "mockup standoffs")
+![standoffs](images/standoffs.png)
 
 
 | holes (h) | position | length  | type  | thread | quantity |
