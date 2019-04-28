@@ -6,7 +6,7 @@
 
 The BOM for the main board and the expansion board are located in the hardware/bom folder. Read the [notes.md](https://github.com/nordseele/nordhat/blob/master/hardware/notes.md) before ordering or soldering.
 
-## Install instructions of specific environments
+## Installing specific environments
 These install instructions have been tested and are provided for information purpose only.
 - [Installing Norns](https://github.com/nordseele/nordhat/blob/master/install/norns/Install_instructions.md)
 

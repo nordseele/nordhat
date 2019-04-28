@@ -56,7 +56,7 @@ The NordHat prototype uses rounded steel standoffs from the **WA-SMSI series mad
 
 It is recommended to use the following dimensions, these are the minimum heights. The Raspberry should not be in contact with the bottom panel. There should be 1 or 2mm of clearance between the panel and and the bottom of the RPI, especially if you're using an aluminium panel.
 
-![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/nordhat_standoffs.png "mockup standoffs")
+![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/standoffs.png "mockup standoffs")
 
 
 | holes (h) | position | length  | type  | thread | quantity |
