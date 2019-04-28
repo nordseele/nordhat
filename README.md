@@ -1,6 +1,6 @@
 # Nordhat & audio expansion board
 
-Read the [notes](hardware/notes.md) before ordering the BOM and soldering.
+Read the [notes](hardware/notes.md) before ordering the BOM and building the device.
 
 ### Bill of material
 [Main board](hardware/bom/BOM_mainboard_nordhat.csv)
