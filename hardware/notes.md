@@ -1,7 +1,5 @@
 # Notes
 
-## (Work in progress)
-
 # Before you start...
 ### Disclaimer
 You must have a prior experience building electronic projects, soldering, etc. The necessary tools can be dangerous. This is not a beginner "DIY" project. All the things learned and tested during the construction of this prototype are reflected here, these informations are provided "as is". If you have been provided with a set of PCB of this 'nordhat' or 'nornshat' (name of the early revisions) project, it is still a prototype and is still in development. You're building it at your own risk.
