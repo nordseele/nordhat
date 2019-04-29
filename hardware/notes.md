@@ -4,7 +4,6 @@
 ### Disclaimer
 You must have a prior experience building electronic projects, soldering, etc. The necessary tools can be dangerous. This is not a beginner "DIY" project. All the things learned and tested during the construction of this prototype are reflected here, these informations are provided "as is". If you have been provided with a set of PCB of this 'nordhat' or 'nornshat' (name of the early revisions) project, it is still a prototype and is still in development. You're building it at your own risk.
 
-
 You'll find the references on the silkscreen and in the BOM and some additional tips and explanations on this page. If you choose another component than the one listed in the suggested BOM (encoders, jack connectors, etc) you should verify that the footprint and pin-out match, again you do this at your own risk.
 
 # Important advice
@@ -41,7 +40,7 @@ ____
 
 ## OLED display
 
-### A small modification of the NHD-2.7-12864WDW3 is required if you want to want to keep the oled display very low, flush to the main board PCB. If you prefer not doing this modification, you will have have to mount standoffs on the display. This Oled display has tiny black legs under it and these legs could be in contact with the expansion header.  
+### A small modification of the NHD-2.7-12864WDW3 is required if you want to want to keep the oled display very low, flush to the main board PCB. If you prefer not doing this modification, you will have have to mount standoffs under the display. This Oled display has tiny black legs under it and these legs could be in contact with the expansion header.  
 
 So you need to bend two of these legs (bottom right and top right when you face the display). If this modification is not done, one of these legs could possibly be in contact with the **J2** and the other one would hide the hole **h8** thus preventing the possibility of mounting a standoff there.
 
