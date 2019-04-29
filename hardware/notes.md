@@ -3,7 +3,11 @@
 ## (Work in progress)
 
 # Before you start...
-We do not provide a "step by step build guide" for this project. There are only a few components and we assume you have a prior experience building electronic projects, soldering, etc. You'll find the references on the silkscreen and in the BOM and some additional tips and explanations in this page. The "hardware part" of the construction might require further experimentation/tricks. For example you'll probably need to adjust the height of the standoffs if you choose to use a 3mm panel instead of a 2mm one. All the things learned and tested during the construction of this prototype are reflected here. If you choose another component than the one listed in the suggested BOM (encoders, jack connectors, etc) you should verify that the footprint and pin-out matches, do this at your own risk. *Think "DIY" and use common sense.*
+### Disclaimer
+You must have a prior experience building electronic projects, soldering, etc. The necessary tools can be dangerous. This is not a beginner "DIY" project. All the things learned and tested during the construction of this prototype are reflected here, these informations are provided "as is". If you have been provided with a set of PCB of this 'nordhat' project, it is still a prototype and is still in development. You're building it at your own risk.
+
+
+You'll find the references on the silkscreen and in the BOM and some additional tips and explanations on this page. If you choose another component than the one listed in the suggested BOM (encoders, jack connectors, etc) you should verify that the footprint and pin-out match, again you do this at your own risk.
 
 # Important advice
 
@@ -43,7 +47,7 @@ ____
 
 So you need to bend two of these legs (bottom right and top right when you face the display). If this modification is not done, one of these legs could possibly be in contact with the **J2** and the other one would hide the hole **h8** thus preventing the possibility of mounting a standoff there.
 
-***Use some pliers and proceed very carefully !***
+***Use some pliers and proceed very carefully ! Do this at your own risk***
 
 ![alt text](https://github.com/nordseele/nordhat/blob/master/hardware/images/oled_detail.jpg "bend the legs of the oled")
 
