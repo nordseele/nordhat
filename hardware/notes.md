@@ -2,7 +2,7 @@
 
 # Before you start...
 ### Disclaimer
-You must have a prior experience building electronic projects, soldering, etc. The necessary tools can be dangerous. This is not a beginner "DIY" project. All the things learned and tested during the construction of this prototype are reflected here, these informations are provided "as is". If you have been provided with a set of PCB of this 'nordhat' or 'nornshat' (name of the early revisions) project, it is still a prototype and is still in development. You're building it at your own risk.
+You must have a prior experience building electronic projects, soldering, etc. The tools (soldering iron, etc) used for building such electronic project can be dangerous. This is not a beginner "DIY" project. All the things learned and tested during the construction of this prototype are reflected here, these informations are provided "as is". If you have been provided with a set of PCB of this 'nordhat' or 'nornshat' (name of the early revisions) project, it is still a prototype and is still in development. You're building it at your own risk.
 
 You'll find the references on the silkscreen and in the BOM and some additional tips and explanations on this page. If you choose another component than the one listed in the suggested BOM (encoders, jack connectors, etc) you should verify that the footprint and pin-out match, again you do this at your own risk.
 
