@@ -1,6 +1,6 @@
 # Nordhat & audio expansion board
 
-### (Work in progress, more infos coming soon)
+### This project is still in development. 
 
 ## Build and BOM
 
