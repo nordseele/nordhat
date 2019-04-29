@@ -1,6 +1,6 @@
 # Nordhat & audio expansion board
 
-### This project is still in development. 
+***This project is still in development. You're building it and using it at your own risk.***
 
 ## Build and BOM
 
