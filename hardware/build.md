@@ -46,8 +46,8 @@ Mount the two boards and the panels together using the standoffs and the screws.
 | :---: | :---: |:-------: | :-----: | :------: | :--------: | :----:
 | 1, 2, 3, 4 | A | 7mm   | FF  | M3 | 4 | WA-SMSI 9774070360R
 | 1, 3 | D  | 15mm   |  FF | M3  | 2 | WA-SMSI 9774150360R
-| 5, 6  | RPI | 11mm  | FF  | M2.5 | 3 | use hex
-| 9   | RPI | 11mm  | MF  | M2.5 | 3 | use hex
+| 5, 6  | RPI | 11mm  | FF  | M2.5 | 2 | use hex
+| 9   | RPI | 11mm  | MF  | M2.5 | 1 | use hex
 | 8, 7   | EXP | 10mm  | FF  | M2.5 | 2 | use hex
 | 2, 4 | C | 3mm   |  FF | M3  | 2 | WA-SMSI 9774030360R
 | 2, 4 | B | 10mm |  FF | M3  | 2 | WA-SMSI 9774100360R
