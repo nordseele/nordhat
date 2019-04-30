@@ -1,5 +1,7 @@
 # Nordhat & audio expansion board
 
+
+
 Read the [notes](hardware/notes.md) before ordering the BOM and building the device.
 
 ### Bill of material
@@ -11,7 +13,6 @@ Read the [notes](hardware/notes.md) before ordering the BOM and building the dev
 
 [Build instructions](hardware/build.md)
 
-### Installing specific environments
-These install instructions have been tested and are provided for information purpose only.  
 
-[Installing Norns](install/norns/Install_instructions.md)
+
+Designed by Matthias Budde for Nordseele® in 2018 and 2019.
