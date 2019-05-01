@@ -1,6 +1,6 @@
 
 # Installing Norns on NordHat
-***Nord Hat Rev2 only. If you wish to follow the instructions on another device you should modify the overlay files and config.txt accordingly***
+***If you wish to follow the instructions on another device than nordhat you should modify the overlay files and config.txt accordingly***
 
 ## Preparing the Raspberry PI
 
