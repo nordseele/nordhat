@@ -77,3 +77,4 @@ Attach the top panel and place the button caps on the buttons.
 
 ![Top panel](images/16.jpg)
 ![Top panel](images/17.jpg)
+![Top panel](images/19.jpg)
