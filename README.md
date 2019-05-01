@@ -14,6 +14,6 @@ Read the [notes](hardware/notes.md) before ordering the BOM and building the dev
 [Build instructions](hardware/build.md)
 
 
-
-Designed by Matthias Budde for Nordseele® in 2018 and 2019.
-Special thanks to Okyeron and DesolationJones
+___
+##### Designed by Matthias Budde for Nordseele® in 2018 and 2019.
+###### Special thanks to Okyeron and DesolationJones
