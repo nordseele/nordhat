@@ -1,6 +1,6 @@
 # Nordhat & audio expansion board
 
-
+![Nordhat](hardware/images/20.jpg)
 
 Read the [notes](hardware/notes.md) before ordering the BOM and building the device.
 
