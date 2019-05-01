@@ -1,10 +1,8 @@
 # Nordhat & audio expansion board
 
-<<<<<<< HEAD
 ***This project is still in development. You're building it and using it at your own risk.***
 =======
 ![Nordhat](hardware/images/20.jpg)
->>>>>>> dev
 
 Read the [notes](hardware/notes.md) before ordering the BOM and building the device.
 
