@@ -2,7 +2,7 @@
 
 ***This project is still in development. You're building it and using it at your own risk.***
 
-![Nordhat](hardware/images/20.jpg)
+![Nordhat](hardware/images/21.jpg)
 
 Read the [notes](hardware/notes.md) before ordering the BOM and building the device.
 
