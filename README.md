@@ -1,5 +1,7 @@
 # Nordhat & audio expansion board
 
+***This project is still in development.***
+
 ![Nordhat](hardware/images/21.jpg)
 
 Read the [notes](hardware/notes.md) before ordering the BOM and building the device.
@@ -16,4 +18,4 @@ Read the [notes](hardware/notes.md) before ordering the BOM and building the dev
 
 ___
 ##### Designed by Matthias Budde for Nordseele® in 2018 and 2019.
-###### Special thanks to Okyeron and DesolationJones 🙏🏻
+###### Special thanks to Okyeron and DesolationJones
