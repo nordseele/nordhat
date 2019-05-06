@@ -2,9 +2,7 @@
 
 ***This project is still in development.***
 
-![Nordhat](hardware/images/21.jpg)
-
-Read the [notes](hardware/notes.md) before ordering the BOM and building the device.
+[notes](hardware/notes.md)
 
 ### Bill of material
 [Main board](hardware/bom/BOM_mainboard_nordhat.csv)
@@ -13,7 +11,7 @@ Read the [notes](hardware/notes.md) before ordering the BOM and building the dev
 
 ### Build instructions
 
-[Build instructions](hardware/build.md)
+[Build](hardware/build.md)
 
 
 ___
