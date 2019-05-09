@@ -9,6 +9,10 @@
 
 [Expansion board](hardware/bom/BOM_expansion_board_nordhat.csv)
 
-### Build instructions
+### Build
 
 [Build](hardware/build.md)
+
+### Install
+
+[Install](files/install.md)
