@@ -12,8 +12,3 @@
 ### Build instructions
 
 [Build](hardware/build.md)
-
-
-___
-##### Designed by Matthias Budde for Nordseele in 2018 and 2019.
-###### Special thanks to Okyeron and DesolationJones

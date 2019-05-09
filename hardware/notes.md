@@ -126,3 +126,6 @@ Using the Adafruit 954 cable:
 
   `screen /dev/cu.usbserial* 115200`
 ____
+
+___
+##### Designed by Matthias Budde for Nordseele in 2018 and 2019.
