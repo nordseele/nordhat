@@ -104,12 +104,6 @@ Different possible combinations. Get these lines:
 The Nord Hat prototype use rounded  steel standoffs of the **WA-SMSI series made by Würth Elektronik**. If you wish to use them, you will need to drill some mounting holes of the PCB (diameter 4.4mm H1, 2, 3, 4). Do this at your own risk even though there are no traces passing too close from these holes and there's an additional margin of error of 1mm. Beware if you order these standoffs, they have a thinner 1mm high ring on top, the height of this ring supposed to be inserted into the mounting hole is not taken into account in the reference, that means that the WA-SMSI 15mm standoff is actually 15mm + 1mm (16mm). Same goes for all the references of this series (see data sheet of the manufacturer for more information).
 ___
 ## Panels and screen protection
-We provide two sets of files (dxf and fpd) for making the top and bottom panels. They have countersunk holes and chamfer. If you want to make acrylic panels you'll have to edit the files to remove the chamfer and countersinks. The recommended thickness is 2mm. The viewing angle of the OLED display will be affected if the thickness is more than 2mm.
+Two sets of files (dxf and fpd) are provided for making the top and bottom panels. They have countersunk holes and chamfer. If you want to make acrylic panels you'll have to edit the files to remove the chamfer and countersinks. The recommended thickness is 2mm. The viewing angle of the OLED display will be affected if the thickness is more than 2mm.
 
 It is recommended to use a screen protection made of Perspex/ plexiglas. Less than 1mm thick. It is placed between the top panel and the display. Use double sided adhesive tape to attach it. The dimensions should be 4cm x 7cm maximum.
-
-____
-
-### Issues
-
-If you encounter an hardware issue, check your soldering and reflow if necessary. Otherwise, create an issue in this repository. Questions related to installing Norns or any other environment should be posted to their respective repositories/forum/creators, the install instructions of the Norns environment that are provided in this repository have been tested but are only here for information purposes, we will not offer support for the Norns install. The Raspberry Pi GPIO used for connecting the encoders, keys, OLED of this board are listed in readme.md. Two overlay .dts files are provided in the "overlays" folder.
