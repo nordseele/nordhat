@@ -128,4 +128,4 @@ Using the Adafruit 954 cable:
 ____
 
 ___
-##### Designed by Matthias Budde for Nordseele in 2018 and 2019.
+##### Nordseele 2018 2019.
