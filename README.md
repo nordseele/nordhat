@@ -1,6 +1,6 @@
 # Nordhat & audio expansion board
 
-![nordhat](images/21.png)
+![nordhat](images/21.jpg)
 
 You must read the [Notes](hardware/notes.md)
 
