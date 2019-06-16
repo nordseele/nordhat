@@ -11,8 +11,8 @@ You must read the [Notes](hardware/notes.md)
 
 ### Build
 
-[Build](hardware/build.md)
+[Build](hardware/build.md) instructions
 
 ### Install
 
-[Install](files/install.md)
+[Install](files/install.md) (optional)
