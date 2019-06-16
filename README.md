@@ -2,7 +2,7 @@
 
 ![nordhat](images/21.jpg)
 
-You must read the [Notes](hardware/notes.md)
+Please read the [Notes](hardware/notes.md)
 
 ### Bill of material
 [Main board](hardware/bom/BOM_mainboard_nordhat.csv)
