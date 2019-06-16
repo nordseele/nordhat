@@ -15,4 +15,4 @@ Please read the [Notes](hardware/notes.md)
 
 ### Install
 
-[Install](files/install.md) (optional)
+[Install](files/install.md) (Norns)
