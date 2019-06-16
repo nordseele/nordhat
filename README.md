@@ -1,8 +1,8 @@
 # Nordhat & audio expansion board
 
-***This project is still in development.***
+![nordhat](images/21.png)
 
-[Notes](hardware/notes.md)
+You must read the [Notes](hardware/notes.md)
 
 ### Bill of material
 [Main board](hardware/bom/BOM_mainboard_nordhat.csv)
