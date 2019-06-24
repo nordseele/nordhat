@@ -7,6 +7,8 @@ You must have a prior experience building electronic projects, soldering, etc. T
 
 You'll find the references on the silkscreen and in the BOM and some additional tips and explanations on this page. If you choose another component than the one listed in the suggested BOM (encoders, jack connectors, etc) you should verify that the footprint and pin-out match, again you do this at your own risk.
 
+
+***The actual Nordhat board is probably NOT compatible with the new Raspberry Pi 4. The position of the Ethernet socket and USB sockets have changed in this latest revision of the PI and the Nordhat main PCB might not be adapted anymore.***
 ---
 # Hardware
 
