@@ -1,6 +1,10 @@
 # Nordhat & audio expansion board
 
+![nordhat](hardware/images/510c58097f0b40acc58df217ebf5c39effdf3649.jpeg)
+Nordhat Rev 2 / custom "DR" prototypes
+
 ![nordhat](hardware/images/21.jpg)
+Nordhat rev 1 prototype
 
 Please read the [Notes](hardware/notes.md)
 
