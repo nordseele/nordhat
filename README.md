@@ -22,3 +22,8 @@ Please read the [Notes](hardware/notes.md)
 ### Install
 
 [Install](files/install.md) (Norns)
+
+
+#### More infos and details
+
+https://llllllll.co/t/norns-shield-case-designs/30347/333?u=nordseele
